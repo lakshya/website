@@ -1,0 +1,20 @@
+Options SymLinksIfOwnerMatch ExecCGI Includes IncludesNOEXEC Indexes
+
+# Turn on URL rewriting
+RewriteEngine On
+
+# Setting the base to Root directory
+#RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^thelakshyafoundation\.org$ [NC]
+RewriteRule ^(.*)$ http://www.thelakshyafoundation.org/$1 [R=301,L]
+
+# Protect application and system files from being viewed
+RewriteRule ^(application|modules|system) - [F,L]
+
+# Allow any files or directories that exist to be displayed directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite all other URLs to index.php/URL
+RewriteRule .* index.php/$0 [PT,L]

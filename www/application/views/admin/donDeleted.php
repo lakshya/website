@@ -1,0 +1,1 @@
+Donor deleted successfully.

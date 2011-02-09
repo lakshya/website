@@ -1,0 +1,28 @@
+#news{
+width: 140px;
+height: 110px;
+border: 0px solid black;
+text-align:left;
+padding:5px 5px 10px 2px ;
+}
+#news .rsstitle{
+font-weight: bold;
+font-size:12px;
+width:140px;
+}
+#news .rssdate{
+color: #aaa;
+font-size: 85%;
+}
+#news .rssdescription{
+width:140px;
+}
+#news a{
+text-decoration: none;
+color: #3579DC !important;
+/*color:#39f !important;*/
+}
+#news a:hover {
+text-decoration:none;
+color: #5B90F6 !important;
+}

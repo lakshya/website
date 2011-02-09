@@ -1,0 +1,112 @@
+/* begin Box, Sheet */
+.Sheet-tl
+{
+	clip: rect(auto 51px 51px auto);
+}
+
+.Sheet-tr
+{
+	clip: rect(auto auto 51px 51px);
+}
+
+.Sheet-bl
+{
+	clip: rect(51px 51px auto auto);
+}
+
+.Sheet-br
+{
+	clip: rect(51px auto auto 51px);
+}
+
+.Sheet-tc
+{
+	clip: rect(auto auto 51px auto);
+}
+
+.Sheet-bc
+{
+	clip: rect(51px auto auto auto);
+}
+
+.Sheet-cr
+{
+	clip: rect(auto auto auto 51px);
+}
+
+.Sheet-cl
+{
+	clip: rect(auto 51px auto auto);
+}
+/* end Box, Sheet */
+
+/* begin Menu */
+.nav .r
+{
+	clip: rect(auto auto auto 788px);
+}
+/* end Menu */
+
+/* begin MenuItem */
+.artmenu a .r
+{
+	clip: rect(auto auto auto 400px);
+}
+/* end MenuItem */
+
+/* begin Box, Block */
+.Block-tl
+{
+	clip: rect(auto 17px 17px auto);
+}
+
+.Block-tr
+{
+	clip: rect(auto auto 17px 17px);
+}
+
+.Block-bl
+{
+	clip: rect(17px 17px auto auto);
+}
+
+.Block-br
+{
+	clip: rect(17px auto auto 17px);
+}
+
+.Block-tc
+{
+	clip: rect(auto auto 17px auto);
+}
+
+.Block-bc
+{
+	clip: rect(17px auto auto auto);
+}
+
+.Block-cr
+{
+	clip: rect(auto auto auto 17px);
+}
+
+.Block-cl
+{
+	clip: rect(auto 17px auto auto);
+}
+/* end Box, Block */
+
+/* begin PostContent */
+.PostContent
+{
+	height:1%;
+}
+/* end PostContent */
+
+/* begin Button */
+.Button .btn .r
+{
+	clip: rect(auto auto auto 400px);
+}
+/* end Button */
+

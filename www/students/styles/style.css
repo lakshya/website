@@ -1,0 +1,49 @@
+.text1
+{
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#155872;
+	font-style:normal;
+	text-decoration:none;
+}
+
+.text2
+{
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FF6600;
+}
+
+.text3
+{
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#7264AA;
+}
+
+.big_text1
+{
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#155872;
+}
+
+.big_text2
+{
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#7264AA;
+}
+
+.big_text3
+{
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#155872;
+}

@@ -46,13 +46,13 @@ read and learn.</p>
 		<td bgcolor="#efefef"><?=$row->title?></td>
 		<td bgcolor="#efefef"><?=$row->author?></td>
 		<?if($row->status == "NO"):?>
-		<?if($row->donDate < date('Y-m-d') && $row->donDate != "0000-00-00"):?>
+		<?if($row->donDate == "0000-00-00"):?>
+		<td bgcolor="#efefef">Pledged</td>
+		<?elseif($row->donDate < date('Y-m-d')):?>
 		<td bgcolor="#efefef"><font style='color: red'>
 		<?="Pledged for ".date('jS  M,  Y',strtotime($row->donDate))?></font></td>
-		<?elseif($row->donDate != "0000-00-00"):?>
+		<?else:?>
 		<td bgcolor="#efefef"><?="Pledged for ".date('jS  M,  Y',strtotime($row->donDate))?></td>
-		<?elseif($row->donDate == "0000-00-00"):?>
-		<td bgcolor="#efefef">Pledged</td>		
 		<?endif?>
 		<?elseif($row->status == "YES"):?>
 		<td bgcolor="#efefef"><?="<font style='color:green'>Donated</font>"?></td>

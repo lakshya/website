@@ -52,10 +52,10 @@ read and learn.</p>
 		<?elseif($row->donDate != "0000-00-00"):?>
 		<td bgcolor="#efefef"><?="Pledged for ".date('jS  M,  Y',strtotime($row->donDate))?></td>
 		<?elseif($row->donDate == "0000-00-00"):?>
-		<td bgcolor="#efefef">-</td>		
+		<td bgcolor="#efefef">Pledged</td>		
 		<?endif?>
 		<?elseif($row->status == "YES"):?>
-		<td bgcolor="#efefef"><?="<font style='color:green'>Donated on ".date('jS  M,  Y',strtotime($row->donDate))."</font>"?></td>
+		<td bgcolor="#efefef"><?="<font style='color:green'>Donated</font>"?></td>
 		<?endif?>
 	</tr>
 	<?endforeach?>

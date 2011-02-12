@@ -90,7 +90,13 @@ function toggle(id, val)
 </script>
 <?
 include APPPATH."views/includes/errors.php";
-$defaults = array('name' => '', 'title' => '', 'author' => '', 'mobile' => '', 'email' => '', 'address' => '', 'donDate' =>'');
+$defaults = array('name' => '', 'mobile' => '', 'email' => '', 'address' => '');
+if(!empty($details))
+{
+	$details = $details->as_array();
+	$details['address'] = $details['addr'];
+	$defaults = arr::overwrite($defaults, $details);
+}
 $data = arr::overwrite($defaults, $data);
 ?>
 <br />

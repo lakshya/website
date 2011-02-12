@@ -69,6 +69,8 @@ class Library_Controller extends Template_Controller {
 			// Need to manually validate, since Kohana doesn't support
 			// arrays in POST validations.
 			$numBooks = count($this->input->post('title'));
+			if($numBooks == 0)
+				$post->add_error('title', 'zero_books');
 			for($i=0;$i < $numBooks; $i++)
 			{
 				if(empty($_POST['title'][$i]))
@@ -110,6 +112,16 @@ class Library_Controller extends Template_Controller {
 		$this->template->content->data = $this->input->post();
 		$this->template->content->count = $numBooks;
 		$this->template->content->errors = $post->errors('library');
+		if($this->_permit('user'))
+		{
+			$details = ORM::factory('user')
+				->where('username', $this->session->get('username'))
+				->find();
+			if($details->loaded)
+				$this->template->content->details = $details;
+			else
+				Kohana::log('error', "Couldn't find the details in users table for a logged in user");
+		}
 	}
 	
 	function manage()
@@ -160,7 +172,6 @@ class Library_Controller extends Template_Controller {
 		$this->template->content->details = $details;
 		$this->template->content->data = $post;
 		$this->template->content->errors = $post->errors('library');
-		
 	}
 }
 ?>

@@ -14,6 +14,7 @@ $lang = array
 	
 	'title' => Array(
 		'required' => 'Title of the Book cannot be blank',
+		'zero_books' => 'You need to donate atleast one book',
 		'default'  => 'Invalid Title of Book'
 	),
 	

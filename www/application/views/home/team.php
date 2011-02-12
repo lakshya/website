@@ -188,8 +188,7 @@ text-align: left;
 		<td bgcolor="#eeeeee">9160508753</td>
 		<td bgcolor="#eeeeee">2012</td>
 	</tr>
-	</tr>
-		<tr>
+	<tr>
 		<td bgcolor="#dddddd">Vamsi Krishna</td>
 		<td bgcolor="#dddddd">vamsi.dvk4u@gmail.com</td>
 		<td bgcolor="#dddddd">9491314970</td>
@@ -200,28 +199,23 @@ text-align: left;
 		<td bgcolor="#eeeeee">9703899565</td>
 		<td bgcolor="#eeeeee">2012</td>
 	</tr>
-	</tr>
-		<tr>
+	<tr>
 		<td bgcolor="#dddddd">K.Venkata Karthik</td>
 		<td bgcolor="#dddddd">rockingu.kv@gmail.com</td>
 		<td bgcolor="#dddddd">9885812693</td>
 		<td bgcolor="#dddddd">2012</td>
 	</tr>
-	</tr>
-		<tr>
+	<tr>
 		<td bgcolor="#eeeeee">Pandari Jain Kumar</td>
 		<td bgcolor="#eeeeee">pandari.216@gmail.com</td>
 		<td bgcolor="#eeeeee">9848022216</td>
 		<td bgcolor="#eeeeee">2012</td>
 	</tr>
-
-		</tr>
 	<tr>
 		<td bgcolor="#dddddd">Akhilesh Padma</td>
 		<td bgcolor="#dddddd">akhilesh009@gmail.com</td>
 		<td bgcolor="#dddddd">9866791061</td>
 		<td bgcolor="#dddddd">2013</td>
 	</tr>
-
 </table>
 </center>

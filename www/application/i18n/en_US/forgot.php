@@ -5,7 +5,7 @@
 			(
 				'required' => 'Email cannot be blank',
                                 'email' => 'Invalid Email',
-                                'notExists' => 'Email doesn't exist in our records',
+                                'notExists' => "Email doesn't exist in our records",
                                 'default'  => 'Invalid Email'
 			),
 	    

@@ -18,7 +18,7 @@
                 'sub' => Array
                        (
                                 'required' => 'Subject cannot be blank',
-                                'length' => Subject can be of 255 chars',
+                                'length' => 'Subject can be of 255 chars',
                                 'default'  => 'Invalid Subject'
                        ),
 			

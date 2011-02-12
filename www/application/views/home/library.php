@@ -21,7 +21,7 @@ text-align: left;
 <p>Young minds are more open, less sterotyped and have a greater capacity to not only change any preconceived notions, but also to help change the system.<br>
 </p>
 <br></br>
-<a href="<?=url::base().'donatebook'?>"><b>SUBMIT BOOK NOW</b></a></li>
+<a href="<?=url::base().'library/donate'?>"><b>SUBMIT BOOK NOW</b></a>
 <br></br>
 <br></br>
 <center>

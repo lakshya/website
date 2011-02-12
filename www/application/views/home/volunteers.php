@@ -21,9 +21,9 @@
 </ul>
 <p align="center"><b><i>The map below shows the various places where Lakshya Scholarship applicants reside. We need volunteers to visit these places for verification.</i></b></p>
 <p align="left">[CLICK ON BUBBLE FOR EXACT ADDRESS]
-<br/><img src="http://www.thelakshyafoundation.org/images/blue_bubble.png"/> No Volunteer available yet</font>
-<br/><img src="http://www.thelakshyafoundation.org/images/yellow_bubble.png"/> Volunteer available, verification pending</font>
-<br/><img src="http://www.thelakshyafoundation.org/images/green_bubble.png"/> Verification complete</font>
+<br/><img src="http://www.thelakshyafoundation.org/images/blue_bubble.png"/> No Volunteer available yet
+<br/><img src="http://www.thelakshyafoundation.org/images/yellow_bubble.png"/> Volunteer available, verification pending
+<br/><img src="http://www.thelakshyafoundation.org/images/green_bubble.png"/> Verification complete
 </p>
 
 

@@ -36,7 +36,7 @@ word-spacing: 10px;
       </tr>
       <tr>
         <td width="50px"><a href="<?=url::base().'library'?>"><img src="/images/book.jpg" alt="Project1" width="150" height="150" border="0"/></a></td>
-        <td>Providing students with various curriculum and non-curriculum books, <b> to gain a broader perspective....<br>
+        <td>Providing students with various curriculum and non-curriculum books, <b> to gain a broader perspective....</b><br/>
           <a href="<?=url::base().'library'?>">More&raquo;</a></td>
       </tr>
     </table></td>

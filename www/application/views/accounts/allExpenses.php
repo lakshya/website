@@ -71,19 +71,19 @@ text-align: left;
 	</tr>
 	<tr>
 		<td bgcolor="#efefef"></td>
-		<td bgcolor="#efefef">d. Scholarships 2009-2010<br/>(Institute Fee & Hostel Fee)</td>
+		<td bgcolor="#efefef">d. Scholarships 2009-2010<br/>(Institute Fee &amp; Hostel Fee)</td>
 		<td bgcolor="#efefef">1,18,000</td>
 		<td bgcolor="#efefef"><a href="<?=url::base().'images/accounts/cheqs_2009July.pdf'?>">Scanned Cheques</a></td>
 	</tr>
 	<tr>
 		<td bgcolor="#efefef"></td>
-		<td bgcolor="#efefef">e. Scholarships 2010-2011 Odd Semester<br/>(Institute Fee & Hostel Fee)</td>
+		<td bgcolor="#efefef">e. Scholarships 2010-2011 Odd Semester<br/>(Institute Fee &amp; Hostel Fee)</td>
 		<td bgcolor="#efefef">1,55,500</td>
 		<td bgcolor="#efefef"><a href="<?=url::base().'images/accounts/2010-11(OddSem).zip'?>">Scanned Cheques</a></td>
 	</tr>
 	<tr>
 		<td bgcolor="#efefef"></td>
-		<td bgcolor="#efefef">f. Scholarships 2010-2011 Even Semester<br/>(Institute Fee & Hostel Fee)</td>
+		<td bgcolor="#efefef">f. Scholarships 2010-2011 Even Semester<br/>(Institute Fee &amp; Hostel Fee)</td>
 		<td bgcolor="#efefef">62,550</td>
 		<td bgcolor="#efefef"><a href="<?=url::base().'images/accounts/2010-11(EvenSem).zip'?>">Scanned Cheques</a></td>
 	</tr>		
@@ -101,7 +101,7 @@ text-align: left;
 	</tr>
 	<tr>
 		<td bgcolor="#dddddd"></td>
-		<td bgcolor="#dddddd">b. Purchase & Integration</td>
+		<td bgcolor="#dddddd">b. Purchase &amp; Integration</td>
 		<td bgcolor="#dddddd">9,044</td>
 		<td bgcolor="#dddddd"><a href="<?=url::base().'images/accounts/ccAvenue.jpg'?>">Order Details</a></td>
 	</tr>

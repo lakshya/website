@@ -65,13 +65,12 @@ read and learn.</p>
 
 </div>
 <br/>
-<div style="text-align:right;font-size:+1.2em"><b><u><a href="/library/donations/">View all donations >>></a></u></b></div>
+<div style="text-align:right;font-size:+1.2em"><b><u><a href="/library/donations/">View all donations &raquo;</a></u></b></div>
 
 
 <div id="stats">
 <span style="color: green; font-size: 14px;">
-<b>Statistics</b></span><br />
-<p>
+<b>Statistics</b></span><br/><br/>
 <table width="40%" border="0" class="coTab" cellspacing="1" cellpadding="5">
 	<tr>
 		<td bgcolor="#D7D6E9"><b>Parameters</b></td>
@@ -89,7 +88,4 @@ read and learn.</p>
 <td bgcolor="#efefef">Number of Donors</td><td style="text-align:right" bgcolor="#efefef"><?php echo $stats['donors']?></td>
 </tr>
 </table>
-
-
-</p>
 </div>

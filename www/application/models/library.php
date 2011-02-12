@@ -38,11 +38,14 @@ Class Library_Model extends Model
 		$count = count($data['title']);
 		for($i=0;$i<$count;$i++)
 		{
+			// Date in YYYY--MM-DD format
+			$db_date = $data['donYear'][$i].'-'.$data['donMonth'][$i].'-'.$data['donDate'][$i];
+			
 			$res = $this->db->insert('lib_book', array('donor_id' => $id,
 	                                                     'title' => $data['title'][$i], 
 	                                                     'author' => $data['author'][$i], 
 	                                                     'typeOfBook' => $data['typeOfBook'][$i], 
-	                                                     'donDate' => $data['donDate'][$i]));
+	                                                     'donDate' => $db_date));
 		}
 		return true;
 	}
@@ -57,6 +60,17 @@ Class Library_Model extends Model
 		$this->db->select('*')->from('lib_book')->where('book_id',$book_id);
 		$r = $this->db->get()->result(FALSE);
 		return $r[0];
+	}
+	
+	function update_book_details($id, $data)
+	{
+		return $this->db->update('lib_book', array(
+							'title' => $data['title'],
+							'author' => $data['author'],
+							'typeOfBook' => $data['typeOfBook'],
+							'donDate' => $data['donDate'],
+							'status' => $data['status']), 
+			array('book_id' => $id));
 	}
 	
 	function getStatistics()

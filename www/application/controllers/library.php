@@ -66,7 +66,7 @@ class Library_Controller extends Template_Controller {
 
 		if($this->input->post())
 		{
-			// Need to manually validate, since Kohana doesnt support
+			// Need to manually validate, since Kohana doesn't support
 			// arrays in POST validations.
 			$numBooks = count($this->input->post('title'));
 			for($i=0;$i < $numBooks; $i++)
@@ -76,6 +76,20 @@ class Library_Controller extends Template_Controller {
 
 				if(empty($_POST['typeOfBook'][$i]))
 					$post->add_error('typeOfBook', 'required');
+				else {
+					$typeOfBook = $_POST['typeOfBook'][$i];
+					if($typeOfBook == 'cur') {
+						// Date is required for curriculum books
+						if(empty($_POST['donDate'][$i]) || empty($_POST['donMonth'][$i]) || empty($_POST['donYear'][$i]))
+							$post->add_error('donDate', 'required');
+						else {
+							// Date must not be in the past
+							$dateStr = $_POST['donYear'][$i].'-'.$_POST['donMonth'][$i].'-'.$_POST['donDate'][$i];
+							if($dateStr < date('Y-m-d'))
+								$post->add_error('donDate', 'past_date');
+						}
+					}
+				}
 			}
 		}
 		$post->add_rules('name', 'required');
@@ -97,15 +111,56 @@ class Library_Controller extends Template_Controller {
 		$this->template->content->count = $numBooks;
 		$this->template->content->errors = $post->errors('library');
 	}
-
-	function bookDonors()
+	
+	function manage()
 	{
 		if(!$this->_permit('admin')) { $this->_denied(); return; }
 		$this->template->title = 'Book Donors';
 		$this->template->heading = 'Book Donors';
 
-		$this->template->content = new View('library/bookDonors');
+		$this->template->content = new View('library/manage');
 		$this->template->content->data = $this->model->donDetails();
+	}
+	
+	function edit($id = 0)
+	{
+		if(!$this->_permit('admin')) { $this->_denied(); return; }
+		
+		$details = $this->model->getBookDetails($id);
+		if(!$details)
+		{
+			// No book is found with the given id
+			$this->template->title = 'Book Not Found';
+			$this->template->heading = 'Book Not Found';
+			$this->template->content = "No book found with the given id.";
+			return;
+		}
+		
+		$post = new Validation($this->input->post());
+		
+		$post->add_rules('title', 'required');
+		$post->add_rules('status','required');
+		$post->add_rules('typeOfBook', 'required');
+		
+		if($post->validate())
+		{
+			// Change in db
+			$this->model->update_book_details($id, $post);
+			
+			$this->template->title = 'Book Details Edited';
+			$this->template->heading = 'Book Details Edited';
+			$this->template->content = 'The book details have been successfully edited';
+			return;
+		}
+		
+		$this->template->title = 'Edit Book Details';
+		$this->template->heading = 'Edit Book Details';
+
+		$this->template->content = new View('library/edit');
+		$this->template->content->details = $details;
+		$this->template->content->data = $post;
+		$this->template->content->errors = $post->errors('library');
+		
 	}
 }
 ?>

@@ -1,3 +1,23 @@
+<?php 
+for($i = 1; $i <=31; $i++) $dates[str_pad((string)$i,2,"0",STR_PAD_LEFT)] = $i;
+$months = array(
+	'01'	=>	"January",
+	'02'	=>	"February",
+	'03'	=>	"March",
+	'04'	=>	"April",
+	'05'	=>	"May",
+	'06'	=>	"June",
+	'07'	=>	"July",
+	'08'	=>	"August",
+	'09'	=>	"September",
+	'10'	=>	"October",
+	'11'	=>	"November",
+	'12'	=>	"December"
+	);
+	
+/* 5 Years in the dropdown */ 
+for($i = date('Y'), $j = $i + 5; $i < $j; $i++) $years[$i] = $i;
+?>
 <style>
 input[type=text] {
 	width: 150px;
@@ -26,6 +46,8 @@ function preFillBookForms()
 			bookContainer.getElementsByClassName('title')[0].value = initial_data['title'][i];
 			bookContainer.getElementsByClassName('author')[0].value = initial_data['author'][i];
 			bookContainer.getElementsByClassName('donDate')[0].value = initial_data['donDate'][i];
+			bookContainer.getElementsByClassName('donMonth')[0].value = initial_data['donMonth'][i];
+			bookContainer.getElementsByClassName('donYear')[0].value = initial_data['donYear'][i];
 			bookContainer.getElementsByClassName('typeOfBook')[0].value = initial_data['typeOfBook'][i];
 			toggle("bookDetails_" + (i+1), bookContainer.getElementsByClassName('typeOfBook')[0].value);
 		} catch(ex) {}
@@ -46,7 +68,8 @@ function addBookForm()
 	removeContainer.appendChild(removeLink);
 
 	var bookTypeNode = newNode.getElementsByClassName('typeOfBook')[0];
-	bookTypeNode.setAttribute('onchange', 'toggle("bookDetails_" + count,event.target.value);');
+	var changeFn = 'toggle("bookDetails_' + count + '",event.target.value);'
+	bookTypeNode.setAttribute('onchange', changeFn);
 	container.appendChild(newNode);
 }
 
@@ -72,12 +95,12 @@ $data = arr::overwrite($defaults, $data);
 ?>
 <br />
 <div id="bookDetailsTemplate" style="display:none">
-<table border="0" cellspacing="10" cellpadding="5">
+<table border="0" cellspacing="5" cellpadding="5">
 <tr>
 		<td><b><u>Book Details</u></b> ( <span class="removeBook"></span> ) </td>
 	</tr>
 	<tr>
-		<td width="250">*Book Title</td>
+		<td width="160">*Book Title</td>
 		<td>:</td>
 		<td><input type="text" class="title" name="title[]" value="" /></td>
 	</tr>
@@ -97,16 +120,20 @@ $data = arr::overwrite($defaults, $data);
 		 </td>
 	</tr>
 	<tr class="donDateTr">
-		<td>Date of Collection of Book (YYYY-MM-DD)</td>
+		<td>Date of Collection of Book</td>
 		<td>:</td>
-		<td><input type="text" class="donDate" name="donDate[]" value="" /></td>
+		<td>
+		<?php echo form::dropdown('donDate[]', $dates, date('d'), 'class="donDate"');?>
+		<?php echo form::dropdown('donMonth[]', $months, date('m'), 'class="donMonth"');?>
+		<?php echo form::dropdown('donYear[]', $years, date('Y'), 'class="donYear"');?>
+		</td>
 	</tr>
 	</table>
 </div>
 <form id="donateBooks" method="post" action="">
 <div id="bookDetailsContainer"></div>
 <p><a href="javascript:addBookForm();">Click to add one more book</a>
-<table border="0" cellspacing="10" cellpadding="5">
+<table border="0" cellspacing="5" cellpadding="5">
 
 	<tr>
 		<td><b><u>Donor Details</u></b></td>
@@ -123,7 +150,7 @@ $data = arr::overwrite($defaults, $data);
 			value="<?=$data['mobile']?>" /></td>
 	</tr>
 	<tr>
-		<td>*Email-id</td>
+		<td>*Email</td>
 		<td>:</td>
 		<td><input type="text" name="email" value="<?=$data['email']?>" /></td>
 	</tr>

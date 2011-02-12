@@ -77,7 +77,7 @@ $data = arr::overwrite($defaults, $data);
 		<td><b><u>Book Details</u></b> ( <span class="removeBook"></span> ) </td>
 	</tr>
 	<tr>
-		<td>*Book Title</td>
+		<td width="250">*Book Title</td>
 		<td>:</td>
 		<td><input type="text" class="title" name="title[]" value="" /></td>
 	</tr>

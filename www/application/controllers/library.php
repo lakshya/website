@@ -86,9 +86,7 @@ class Library_Controller extends Template_Controller {
 		{
 			$res = $this->model->donateBook($this->input->post());
 
-			$link['name'] = $this->input->post('name');
-			$link['title'] = $this->input->post('title');
-			$body = new View('mails/newBookDonation',$link);
+			$body = new View('mails/newBookDonation',$this->input->post());
 			$this->_email('harishsvs@gmail.com','Lakshya-Library-New Book Donated',$body->render());
 
 			$this->template->heading = "";

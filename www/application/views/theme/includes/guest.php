@@ -6,7 +6,7 @@
     </div>
 	<div class="BlockContent">
 		<div class="BlockContent-body">
-			<div><form method="post" id="login" action="http://www.thelakshyafoundation.org/user/login">
+			<div><form method="post" id="login" action="/user/login">
 			<? if($this->session->get('url'))
 				echo form::hidden('url',$this->session->get('url'));
 			else
@@ -25,7 +25,7 @@
 			</button>
 			</form>
 			</div>
-    <a href="http://www.thelakshyafoundation.org/forgot"><font style="font-size:11px">Forgot Username / Password</font></a>
+    <a href="/forgot"><font style="font-size:11px">Forgot Username / Password</font></a>
 		</div> 
 	</div>
 </div>

@@ -229,7 +229,7 @@ div.Header-jpeg
 	left: 0;
 	width: 888px;
 	height: 150px;
-	background-image: url('http://thelakshyafoundation.org/images/Header1.jpg');
+	background-image: url('/images/Header1.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 }

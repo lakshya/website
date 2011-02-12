@@ -24,7 +24,9 @@
 		<td bgcolor="#efefef"><?=$row->title?></td>
 		<td bgcolor="#efefef"><?=$row->author?></td>
 		<?if($row->status == "NO"):?>
-		<?if($row->donDate < date('Y-m-d')):?>
+		<?if($row->donDate == "0000-00-00"):?>
+		<td bgcolor="#efefef">Pledged</td>
+		<?elseif($row->donDate < date('Y-m-d')):?>
 		<td bgcolor="#efefef"><font style='color: red'>
 		<?="Pledged for ".date('jS  M,  Y',strtotime($row->donDate))?></font></td>
 		<?else:?>

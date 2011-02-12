@@ -55,7 +55,7 @@ read and learn.</p>
 		<td bgcolor="#efefef"><?="Pledged for ".date('jS  M,  Y',strtotime($row->donDate))?></td>
 		<?endif?>
 		<?elseif($row->status == "YES"):?>
-		<td bgcolor="#efefef"><?="<font style='color:green'>Donated</font>"?></td>
+		<td bgcolor="#efefef"><?="<font style='color:green'>Donated on ".date('jS  M,  Y',strtotime($row->donDate))."</font>"?></td>
 		<?endif?>
 	</tr>
 	<?endforeach?>

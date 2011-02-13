@@ -1,4 +1,4 @@
-Options SymLinksIfOwnerMatch ExecCGI Includes IncludesNOEXEC Indexes
+Options SymLinksIfOwnerMatch ExecCGI Includes IncludesNOEXEC -Indexes
 
 # Turn on URL rewriting
 RewriteEngine On

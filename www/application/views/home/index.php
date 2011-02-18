@@ -46,7 +46,7 @@ word-spacing: 10px;
       </tr>
       <tr>
         <td width="50px"><a href="<?=url::base().'innovation'?>"><img src="/images/innovation.jpg" alt="Project1" width="150" height="150" border="0"/></a><a href="<?=url::base().'ekjodikapda'?>"></a></td>
-        <td>Converting bright ideas into realities, without worrying about finances....<br>
+        <td>Projects shortlisted for the final round for 2010-2011 announced!! <br>
           <a href="<?=url::base().'innovation'?>">More&raquo;</a></td>
       </tr>
     </table></td>

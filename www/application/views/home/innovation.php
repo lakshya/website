@@ -39,6 +39,46 @@
 <p>India's jugaad philosophy urgently needs an upgrade and we're hoping it will come from a few of these bright young minds.</p>
 <p>We will be calling for abstracts and after a rigorous process, a few will be given the opportunity to transform their idea into and prototype and, if its a hit, into a product.</p>
 <br>
+<h2>Shortlisted projects for 2010-2011</h2>
+<h3>The projects shortlisted for the final round are (in no specific order):</h3>
+<blockquote>
+<ol>
+<li><h4> Anti theft device for 4-wheelers</li></h4>
+<ul>
+<li>K.R.Pranav (B.Tech 2nd Year)</li>
+<li>K Rahul Tej (B.Tech 2nd Year)</li>
+<li>P.V.Abhilash (B.Tech 2nd Year)</li>
+</ul>
+
+<li><h4>Hovomarine</li></h4>
+<ul>
+<li>Joby Yeldo (M.Tech 1st Year - Manufacturing Engg.)</li>
+</ul>
+
+<li><h4>Flywheel Regeneration Project</li></h4>	
+<ul>
+<li>T.Vishwarath(B.Tech 3rd Year - Mech)</li>
+<li>V.Tata Rao(B.Tech 3rd Year- Mech)</li>
+</ul>
+
+<li><h4>Discotula - Grid computing</li></h4>	
+<ul>
+<li>Shrinath B  (B.Tech ¾ - CSE)</li>
+<li>Sejal Chauhan  (B.Tech ¾ - ECE)</li>
+<li>Ajeet Vishwakarma (B.Tech ¾ - CSE)</li>
+<li>Moolchand Kuri  (B.Tech ¾ - CSE)</li>
+<li>Mahendra Kumar  (B.Tech ¾ CSE)</li>
+</ul>
+
+<li><h4>Water Purification System</li></h4>
+<ul>
+<li>Prabhat Rao Pinnaka(B.Tech 2nd Year - Mech)</li>
+<li>Raghuveer Peri(B.Tech 3rd Year - EEE)</li>
+</ul>
+</ol>
+</blockquote>
+</br>
+
 <h2>The Innovation Project Poster.</h2>
 <p align="center">Click on the image to enlarge it.</p>
 <table width="660" border="0" align="center">

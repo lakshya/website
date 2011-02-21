@@ -21,7 +21,7 @@
 
 	if($Checksum=="true" && $AuthDesc=="Y")
 	{
-		echo "<br>Thank you for shopping with us. Your credit card has been charged and your transaction is successful. We will be shipping your order to you soon.";
+		echo "<br/>Thank you for shopping with us. Your credit card has been charged and your transaction is successful. We will be shipping your order to you soon.";
 		
 		//Here you need to put in the routines for a successful 
 		//transaction such as sending an email to customer,
@@ -29,7 +29,7 @@
 	}
 	else if($Checksum=="true" && $AuthDesc=="B")
 	{
-		echo "<br>Thank you for shopping with us. We will keep you posted regarding the status of your order through e-mail";
+		echo "<br/>Thank you for shopping with us. We will keep you posted regarding the status of your order through e-mail";
 		
 		//Here you need to put in the routines/e-mail for a  "Batch Processing" order
 		//This is only if payment for this transaction has been made by an American Express Card
@@ -37,7 +37,7 @@
 	}
 	else if($Checksum=="true" && $AuthDesc=="N")
 	{
-		echo "<br>Thank you for shopping with us. However,the transaction has been declined.";
+		echo "<br/>Thank you for shopping with us. However,the transaction has been declined.";
 		
 		//Here you need to put in the routines for a failed
 		//transaction such as sending an email to customer
@@ -45,7 +45,7 @@
 	}
 	else
 	{
-		echo "<br>Security Error. Illegal access detected";
+		echo "<br/>Security Error. Illegal access detected";
 		
 		//Here you need to simply ignore this and dont need
 		//to perform any operation in this condition

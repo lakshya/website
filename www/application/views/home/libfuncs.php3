@@ -30,7 +30,7 @@ function adler32($adler , $str)
 	{
 		$s1 = ($s1 + Ord($str[$i])) % $BASE ;
 		$s2 = ($s2 + $s1) % $BASE ;
-			//echo "s1 : $s1 <BR> s2 : $s2 <BR>";
+			//echo "s1 : $s1 <br/> s2 : $s2 <br/>";
 
 	}
 	return leftshift($s2 , 16) + $s1;
@@ -48,7 +48,7 @@ function leftshift($str , $num)
 	{
 		$str = $str."0";
 		$str = substr($str , 1 ) ;
-		//echo "str : $str <BR>";
+		//echo "str : $str <br/>";
 	}
 	return cdec($str) ;
 }

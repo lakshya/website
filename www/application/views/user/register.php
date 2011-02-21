@@ -34,8 +34,8 @@ label.checkbox,label.radio {
 
 <form method="post" action="">
 <p><label for="username">*Desired username</label> <?php echo form::input('username', $data['username'])?></p>
-<p><label for="username">*Password</label> <?php echo form::password('passwd')?></p>
-<p><label for="username">*Confirm Password</label> <?php echo form::password('confpasswd')?></p>
+<p><label for="passwd">*Password</label> <?php echo form::password('passwd')?></p>
+<p><label for="confpasswd">*Confirm Password</label> <?php echo form::password('confpasswd')?></p>
 <p><label for="name">*Name</label> <?php echo form::input('name', $data['name'])?></p>
 <p><label for="email">*Email Id</label> <?php echo form::input('email', $data['email'])?></p>
 <p><label for="mobile">Mobile</label> <?php echo form::input('mobile', $data['mobile'])?></p>
@@ -55,7 +55,6 @@ see in the picture below.</p>
 
 
 <div class="base">Letters are not case-sensitive</div>
-</p>
 <br />
 
 <br />

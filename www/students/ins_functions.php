@@ -55,9 +55,9 @@ function send_email($to,$subject,$body)
 	$message=$message.'</td>
   </tr>
   <tr>
-    <td align="center" bgcolor="#155872" style="font:Verdana, Arial, Helvetica, sans-serif; color:#996633; font-size:10px"><span class="style2"><br>
-      The Lakshya Foundation is a Registered Trust<br>
-      <a href="http://www.thelakshyafoundation.org/sitemap">Sitemap</a> | <a href="mailto:info@thelakshyafoundation.org">Contact Us</a> | <a href="http://www.nitw.ac.in">NIT Warangal<br>
+    <td align="center" bgcolor="#155872" style="font:Verdana, Arial, Helvetica, sans-serif; color:#996633; font-size:10px"><span class="style2"><br/>
+      The Lakshya Foundation is a Registered Trust<br/>
+      <a href="http://www.thelakshyafoundation.org/sitemap">Sitemap</a> | <a href="mailto:info@thelakshyafoundation.org">Contact Us</a> | <a href="http://www.nitw.ac.in">NIT Warangal<br/>
       </a></span></td>
   </tr>
 </table>';
@@ -124,7 +124,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."First Name"."<br>";
+	 	$rem=$rem."First Name"."<br/>";
 	 }
 	 if($row['lname']!="")
 	 {
@@ -132,7 +132,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Last Name"."<br>";
+	 	$rem=$rem."Last Name"."<br/>";
 	 }
 	 if($row['dob']!="0000-00-00")
 	 {
@@ -140,7 +140,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Date of Birth"."<br>";
+	 	$rem=$rem."Date of Birth"."<br/>";
 	 }
 	 if($row['sex']!="")
 	 {
@@ -148,7 +148,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Sex"."<br>";
+	 	$rem=$rem."Sex"."<br/>";
 	 }
 	 if($row['rollno']!="")
 	 {
@@ -156,7 +156,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Roll No"."<br>";
+	 	$rem=$rem."Roll No"."<br/>";
 	 }
 	 if($row['branch']!="")
 	 {
@@ -164,7 +164,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Branch"."<br>";
+	 	$rem=$rem."Branch"."<br/>";
 	 }
 	 if($row['batch']!="")
 	 {
@@ -172,7 +172,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Batch"."<br>";
+	 	$rem=$rem."Batch"."<br/>";
 	 }
 	 
 	 $sql="select * from lakshya_student_ct_details where uid='{$uid}'";
@@ -185,7 +185,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Hostel Room No"."<br>";
+	 	$rem=$rem."Hostel Room No"."<br/>";
 	 }
 	 if($row['hblock']!="")
 	 {
@@ -193,7 +193,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Hostel Block"."<br>";
+	 	$rem=$rem."Hostel Block"."<br/>";
 	 }
 	 if($row['paddress']!="")
 	 {
@@ -201,7 +201,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Permanant Address"."<br>";
+	 	$rem=$rem."Permanant Address"."<br/>";
 	 }
 	 if($row['pcode']!="0")
 	 {
@@ -209,7 +209,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Pin Code"."<br>";
+	 	$rem=$rem."Pin Code"."<br/>";
 	 }
 	 if($row['district']!="")
 	 {
@@ -217,7 +217,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."District"."<br>";
+	 	$rem=$rem."District"."<br/>";
 	 }
 	 if($row['state']!="")
 	 {
@@ -225,7 +225,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."State"."<br>";
+	 	$rem=$rem."State"."<br/>";
 	 }
 	 if($row['cno']!="")
 	 {
@@ -233,7 +233,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Contact No"."<br>";
+	 	$rem=$rem."Contact No"."<br/>";
 	 }
 	 if($row['pcno']!="")
 	 {
@@ -241,7 +241,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Parents/Guardian Contact No"."<br>";
+	 	$rem=$rem."Parents/Guardian Contact No"."<br/>";
 	 }
 	 
 	 $sql="select * from lakshya_student_at_details where uid='{$uid}'";
@@ -254,7 +254,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Asset Details -Vehicles"."<br>";
+	 	$rem=$rem."Asset Details -Vehicles"."<br/>";
 	 }
 	 if($row['happs']!="0-0-0")
 	 {
@@ -262,7 +262,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Asset Details - House Appliances"."<br>";
+	 	$rem=$rem."Asset Details - House Appliances"."<br/>";
 	 }
 	 if($row['hownership']!="")
 	 {
@@ -270,7 +270,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."House Ownership"."<br>";
+	 	$rem=$rem."House Ownership"."<br/>";
 	 }
 	 if($row['htype']!="")
 	 {
@@ -278,7 +278,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."House Type"."<br>";
+	 	$rem=$rem."House Type"."<br/>";
 	 }
 	 if($row['agland']!="")
 	 {
@@ -286,7 +286,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Agriculture Land"."<br>";
+	 	$rem=$rem."Agriculture Land"."<br/>";
 	 }
 	 if($row['otassets']!="")
 	 {
@@ -294,7 +294,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Other Assets"."<br>";
+	 	$rem=$rem."Other Assets"."<br/>";
 	 }
 	 
 	 $sql="select * from lakshya_student_ot_details where uid='{$uid}'";
@@ -307,7 +307,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Other Information - Till Now how did you manage"."<br>";
+	 	$rem=$rem."Other Information - Till Now how did you manage"."<br/>";
 	 }
 	 if($row['after']!="")
 	 {
@@ -315,7 +315,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Other Information - What will you do if not supported by Lakshya"."<br>";
+	 	$rem=$rem."Other Information - What will you do if not supported by Lakshya"."<br/>";
 	 }
 	 
 	 $sql="select * from lakshya_student_ed_details where uid='{$uid}'";
@@ -328,7 +328,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."SSC Details"."<br>";
+	 	$rem=$rem."SSC Details"."<br/>";
 	 }
 	 if($row['int_marks']!="0")
 	 {
@@ -336,7 +336,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Intermediate Details"."<br>";
+	 	$rem=$rem."Intermediate Details"."<br/>";
 	 }
 	 if($row['air']!="0")
 	 {
@@ -344,7 +344,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."All India Rank"."<br>";
+	 	$rem=$rem."All India Rank"."<br/>";
 	 }
 	 
 	 $sql="select * from lakshya_student_fs_details where uid='{$uid}'";
@@ -357,7 +357,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Family Details"."<br>";
+	 	$rem=$rem."Family Details"."<br/>";
 	 }
 	 if($row['scdet']!="")
 	 {
@@ -365,7 +365,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Scholorship Details"."<br>";
+	 	$rem=$rem."Scholorship Details"."<br/>";
 	 }
 	 if($row['exdet']!="")
 	 {
@@ -373,7 +373,7 @@ function calculate_complete($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Other Exam Details"."<br>";
+	 	$rem=$rem."Other Exam Details"."<br/>";
 	 }
 	 
 	 return $per;
@@ -393,7 +393,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."First Name"."<br>";
+	 	$rem=$rem."First Name"."<br/>";
 	 }
 	 if($row['lname']!="")
 	 {
@@ -401,7 +401,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Last Name"."<br>";
+	 	$rem=$rem."Last Name"."<br/>";
 	 }
 	 if($row['dob']!="0000-00-00")
 	 {
@@ -409,7 +409,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Date of Birth"."<br>";
+	 	$rem=$rem."Date of Birth"."<br/>";
 	 }
 	 if($row['sex']!="")
 	 {
@@ -417,7 +417,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Sex"."<br>";
+	 	$rem=$rem."Sex"."<br/>";
 	 }
 	 if($row['rollno']!="")
 	 {
@@ -425,7 +425,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Roll No"."<br>";
+	 	$rem=$rem."Roll No"."<br/>";
 	 }
 	 if($row['branch']!="")
 	 {
@@ -433,7 +433,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Branch"."<br>";
+	 	$rem=$rem."Branch"."<br/>";
 	 }
 	 if($row['batch']!="")
 	 {
@@ -441,7 +441,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Batch"."<br>";
+	 	$rem=$rem."Batch"."<br/>";
 	 }
 	 
 	 $sql="select * from lakshya_student_ct_details where uid='{$uid}'";
@@ -454,7 +454,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Hostel Room No"."<br>";
+	 	$rem=$rem."Hostel Room No"."<br/>";
 	 }
 	 if($row['hblock']!="")
 	 {
@@ -462,7 +462,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Hostel Block"."<br>";
+	 	$rem=$rem."Hostel Block"."<br/>";
 	 }
 	 if($row['paddress']!="")
 	 {
@@ -470,7 +470,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Permanant Address"."<br>";
+	 	$rem=$rem."Permanant Address"."<br/>";
 	 }
 	 if($row['pcode']!="0")
 	 {
@@ -478,7 +478,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Pin Code"."<br>";
+	 	$rem=$rem."Pin Code"."<br/>";
 	 }
 	 if($row['district']!="")
 	 {
@@ -486,7 +486,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."District"."<br>";
+	 	$rem=$rem."District"."<br/>";
 	 }
 	 if($row['state']!="")
 	 {
@@ -494,7 +494,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."State"."<br>";
+	 	$rem=$rem."State"."<br/>";
 	 }
 	 if($row['cno']!="")
 	 {
@@ -502,7 +502,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Contact No"."<br>";
+	 	$rem=$rem."Contact No"."<br/>";
 	 }
 	 if($row['pcno']!="")
 	 {
@@ -510,7 +510,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Parents/Guardian Contact No"."<br>";
+	 	$rem=$rem."Parents/Guardian Contact No"."<br/>";
 	 }
 	 
 	 $sql="select * from lakshya_student_at_details where uid='{$uid}'";
@@ -523,7 +523,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Asset Details -Vehicles"."<br>";
+	 	$rem=$rem."Asset Details -Vehicles"."<br/>";
 	 }
 	 if($row['happs']!="0-0-0")
 	 {
@@ -531,7 +531,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Asset Details - House Appliances"."<br>";
+	 	$rem=$rem."Asset Details - House Appliances"."<br/>";
 	 }
 	 if($row['hownership']!="")
 	 {
@@ -539,7 +539,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."House Ownership"."<br>";
+	 	$rem=$rem."House Ownership"."<br/>";
 	 }
 	 if($row['htype']!="")
 	 {
@@ -547,7 +547,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."House Type"."<br>";
+	 	$rem=$rem."House Type"."<br/>";
 	 }
 	 if($row['agland']!="")
 	 {
@@ -555,7 +555,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Agriculture Land"."<br>";
+	 	$rem=$rem."Agriculture Land"."<br/>";
 	 }
 	 if($row['otassets']!="")
 	 {
@@ -563,7 +563,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Other Assets"."<br>";
+	 	$rem=$rem."Other Assets"."<br/>";
 	 }
 	 
 	 $sql="select * from lakshya_student_ot_details where uid='{$uid}'";
@@ -576,7 +576,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Other Information - Till Now how did you manage"."<br>";
+	 	$rem=$rem."Other Information - Till Now how did you manage"."<br/>";
 	 }
 	 if($row['after']!="")
 	 {
@@ -584,7 +584,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Other Information - What will you do if not supported by Lakshya"."<br>";
+	 	$rem=$rem."Other Information - What will you do if not supported by Lakshya"."<br/>";
 	 }
 	 
 	 $sql="select * from lakshya_student_ed_details where uid='{$uid}'";
@@ -597,7 +597,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."SSC Details"."<br>";
+	 	$rem=$rem."SSC Details"."<br/>";
 	 }
 	 if($row['int_marks']!="0")
 	 {
@@ -605,7 +605,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Intermediate Details"."<br>";
+	 	$rem=$rem."Intermediate Details"."<br/>";
 	 }
 	 if($row['air']!="0")
 	 {
@@ -613,7 +613,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."All India Rank"."<br>";
+	 	$rem=$rem."All India Rank"."<br/>";
 	 }
 	 
 	 $sql="select * from lakshya_student_fs_details where uid='{$uid}'";
@@ -626,7 +626,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Family Details"."<br>";
+	 	$rem=$rem."Family Details"."<br/>";
 	 }
 	 if($row['scdet']!="")
 	 {
@@ -634,7 +634,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Scholorship Details"."<br>";
+	 	$rem=$rem."Scholorship Details"."<br/>";
 	 }
 	 if($row['exdet']!="")
 	 {
@@ -642,7 +642,7 @@ function calculate_remaining($uid)
 	 }
 	 else
 	 {
-	 	$rem=$rem."Other Exam Details"."<br>";
+	 	$rem=$rem."Other Exam Details"."<br/>";
 	 }
 	 
 	 if($rem=="")

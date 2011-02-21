@@ -25,7 +25,7 @@ width: 150px;
 	<tr>
 		<td>Address</td>
 		<td> : </td>
-		<td><textarea name="addr" rows="4" cols="30" value="<?=$addr?>"></textarea></td>
+		<td><?php echo form::textarea('addr', $addr, 'rows="4" cols="30"')?></td>
 	</tr>
 		<tr>
 		<td>City</td>
@@ -51,17 +51,10 @@ width: 150px;
 		<td>Branch</td>
 		<td> : </td>
 		<td>
-		<select name="branch" value="<?=$branch?>">
-		<option></option>
-		<option>ECE</option>
-		<option>EEE</option>
-		<option>Chemical</option>
-		<option>Mechanical</option>
-		<option>CSE</option>
-		<option>Civil</option>
-		<option>Metallurgy</option>
-		<option>Biotech</option>
-		</select>
+		<?php 
+		$branches = array('ECE', 'EEE', 'Chemical', 'Mechanical', 'CSE', 'Civil', 'Metallurgy', 'Biotech');
+		echo form::dropdown('branch', $branches, $branch);
+		?>
 		</td>
 	</tr>
 	<tr>

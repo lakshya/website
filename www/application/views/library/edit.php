@@ -78,11 +78,11 @@ input[type=text] {
 	<input type="Reset" value="Reset" />
 </form>
 
-<p>
+<div>
 <b>Notes: </b><br/>
 <ul>
 <li>Please enter the date in exact date format YYYY-MM-DD, including the padding zeroes. 
-e.g: January 1, 2011 is written as 2011-01-01</li><br/>
+e.g: January 1, 2011 is written as 2011-01-01</li>
 <li>Please enter the donation date when changing the status to <i>Received</i></li>
 </ul>
-</p>
+</div>

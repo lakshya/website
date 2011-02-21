@@ -27,7 +27,7 @@ $data = arr::overwrite($defaults, $data);
 <p><label for="geCaptcha">Verification : </label>
 Type the characters you see in the picture below.</p>
 <p><label> &nbsp;</label><? $captcha = new Captcha; echo $captcha->render();?></p>
-<p><label> &nbsp;</label><?= form::input('captcha');?></p><br>
+<p><label> &nbsp;</label><?= form::input('captcha');?></p><br/>
 
 <p><label> &nbsp;</label><input type="submit" value="Submit"/>&nbsp;&nbsp;<input type="reset" value="Reset"/></p>
 </form>

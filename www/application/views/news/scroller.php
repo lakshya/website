@@ -8,14 +8,14 @@ rsscontentdata.news=new Array();
 
 rsscontentdata.news[0] = {
 		link:"<?=url::base().'news/scholForm'?>",
-		title:"The application for the Lakshya Scholarship 2010 - 2011 is now closed . <br>Click here for more details.",
+		title:"The application for the Lakshya Scholarship 2010 - 2011 is now closed . <br/>Click here for more details.",
 		description:" ",
 		date:""
 	};
 
 rsscontentdata.news[1] = {
 		link:"<?=url::base().'gallery'?>",
-		title:"'Ek Jodi Kapda' project pics are uploaded on the website . <br>Click here to view them.",
+		title:"'Ek Jodi Kapda' project pics are uploaded on the website . <br/>Click here to view them.",
 		description:" ",
 		date:""
 	};

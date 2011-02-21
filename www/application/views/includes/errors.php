@@ -1,9 +1,9 @@
 <?
 if(!empty($errors))
 	{
-		echo '<div class="errors"><i>The following errors have occured : </i><br>';
+		echo '<div class="errors"><i>The following errors have occured : </i><br/>';
 		foreach($errors as $e)
-			echo $e, '<br>';
+			echo $e, '<br/>';
 		echo '</div>';
 	}
 	?>

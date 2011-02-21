@@ -12,7 +12,7 @@ word-spacing: 10px;
 	<table class="pro" width="100%" height="150px">
 		<tr><td colspan="2" bgcolor="#dfdfdf" height="25px" align="center"><font style="color: #152a33; font-weight:bold;">Lakshya Scholarships</font></td></tr>
 		<tr><td width="50px"><a href="<?=url::base().'scholarships'?>"><img src="/images/proj1.jpg" alt="Project1" width="150" height="150"/></a></td>
-		<td>Lakshya looks to move from a grant model to an <b>interest-free loan model</b> for its scholarship project... &nbsp;&nbsp;&nbsp;<br>
+		<td>Lakshya looks to move from a grant model to an <b>interest-free loan model</b> for its scholarship project... &nbsp;&nbsp;&nbsp;<br/>
 		  <a href="<?=url::base().'scholarships'?>">More&raquo;</a></td></tr>
 	</table>
 	</td>
@@ -21,7 +21,7 @@ word-spacing: 10px;
 	<table class="pro" width="100%" height="150px">
 		<tr><td colspan="2" bgcolor="#dfdfdf" height="25px" align="center"><font style="color: #152a33; font-weight:bold;">Ek Jodi Kapda</font></td></tr>
 		<tr><td width="50px"><a href="<?=url::base().'ekjodikapda'?>"><img src="/images/logo.jpg" alt="contribute" width="150" height="150"/></a></td>
-		<td>In India, there are 456 million Indians living below the poverty line with limited or no access to the bare necessities like food, clothing and shelter. &nbsp;&nbsp;&nbsp;<br>
+		<td>In India, there are 456 million Indians living below the poverty line with limited or no access to the bare necessities like food, clothing and shelter. &nbsp;&nbsp;&nbsp;<br/>
 		  <a href="<?=url::base().'ekjodikapda'?>">More&raquo;</a></td></tr>
 	</table>
 	</td>
@@ -46,7 +46,7 @@ word-spacing: 10px;
       </tr>
       <tr>
         <td width="50px"><a href="<?=url::base().'innovation'?>"><img src="/images/innovation.jpg" alt="Project1" width="150" height="150" border="0"/></a><a href="<?=url::base().'ekjodikapda'?>"></a></td>
-        <td>Projects shortlisted for the final round for 2010-2011 announced!! <br>
+        <td>Projects shortlisted for the final round for 2010-2011 announced!! <br/>
           <a href="<?=url::base().'innovation'?>">More&raquo;</a></td>
       </tr>
     </table></td>

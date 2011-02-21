@@ -26,7 +26,6 @@
 <br/><img src="http://www.thelakshyafoundation.org/images/green_bubble.png"/> Verification complete
 </p>
 
-
 <a
 href="http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=100020617982136161664.000493b214036d8600585&z=5"" style="color:#0000FF;text-align:left;font-size:small">View Larger Map</a></p>
 <p align="center">

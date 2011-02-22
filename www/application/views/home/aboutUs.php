@@ -5,6 +5,6 @@
 <p> 1)&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="<?=url::base().'scholarships'?>">Lakshya Scholarships</a></strong>&nbsp;&ndash; Provide funding for students who are unable to pay for their education.</p>
 <p> 2)&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="<?=url::base().'asthra'?>">ASTHRA</a></strong>&nbsp;&ndash; Ensure transparency using the Right to Information Act.</p>
 <p> 3)&nbsp;&nbsp;&nbsp;<strong>&nbsp;<a href="<?=url::base().'innovation'?>">The Innovation Project</a></strong>&nbsp;&ndash; Converting bright ideas into realities, without worrying about finances.</p>
-<p> 4)&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="<?=url::base().'library'?>">The Library Project</a></strong>&nbsp;&ndash; Providing non curriculum books to students.</p>
+<p> 4)&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="<?=url::base().'library'?>">The Library Project</a></strong>&nbsp;&ndash; Providing non curriculum and curriculum books to students.</p>
 <p> 5)&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="<?=url::base().'ekjodikapda'?>">EK JODI KAPDA</a></strong>&nbsp;&ndash; &lsquo;A SET OF CLOTHES&rsquo; for the 456 million Indians living below poverty line.</p>
 <!--<p> With Transparency as the Mantra, and Hard work as the tool, Lakshya strives to &ldquo;Transform lives through Education&rdquo;.</p>-->

@@ -104,5 +104,10 @@ abstract class Template_Controller extends Controller {
 		$this->template->title = "Page Not Found";
 		$this->template->content = new View('includes/404');
 	}
+	
+	public function __call($method, $args)
+	{
+		$this->_error404();
+	}
 
 }

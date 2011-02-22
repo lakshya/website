@@ -2,7 +2,7 @@
 /**
  * Validation library.
  *
- * $Id: Validation.php 3769 2008-12-15 00:48:56Z zombor $
+ * $Id: Validation.php 4120 2009-03-25 19:22:31Z jheathco $
  *
  * @package    Validation
  * @author     Kohana Team
@@ -108,12 +108,12 @@ class Validation_Core extends ArrayObject {
 	public function field_names()
 	{
 		// All the fields that are being validated
-		$fields = array_unique(array_merge
+		$fields = array_keys(array_merge
 		(
-			array_keys($this->pre_filters),
-			array_keys($this->rules),
-			array_keys($this->callbacks),
-			array_keys($this->post_filters)
+			$this->pre_filters,
+			$this->rules,
+			$this->callbacks,
+			$this->post_filters
 		));
 
 		// Remove wildcard fields
@@ -205,7 +205,7 @@ class Validation_Core extends ArrayObject {
 	{
 		if (is_string($callback))
 		{
-			if (strpos('::', $callback) !== FALSE)
+			if (strpos($callback, '::') !== FALSE)
 			{
 				$callback = explode('::', $callback);
 			}
@@ -501,6 +501,7 @@ class Validation_Core extends ArrayObject {
 						// Note that continue, instead of break, is used when
 						// applying rules using a wildcard, so that all fields
 						// will be validated.
+
 						if (isset($this->errors[$f]))
 						{
 							// Prevent other rules from being evaluated if an error has occurred
@@ -739,7 +740,7 @@ class Validation_Core extends ArrayObject {
 			return ! ($str === '' OR $str === NULL OR $str === FALSE);
 		}
 	}
-	
+
 	/**
 	 * Rule: matches. Generates an error if the field does not match one or more
 	 * other fields.
@@ -820,32 +821,6 @@ class Validation_Core extends ArrayObject {
 	public function chars($value, array $chars)
 	{
 		return ! preg_match('![^'.implode('', $chars).']!u', $value);
-	}
-	
-	/**
-	 * Rule: username. Generates an error if the field is not in username format.
-	 *
-	 * @param   string  field value
-	 * @return  bool
-	 */
-	public function username($value)
-	{
-		if(strlen($value) < 5 || strlen($value) > 24) return FALSE;
-		return (preg_match("/^[a-z]+(\.)?([a-z0-9]+(\.)?)*[a-z0-9]+$/", $value) == 0) ? FALSE : TRUE;
-	}
-	
-	public function sgpa($sg)
-	{
-		$sg = (float)$sg;
-		if($sg < 0 || $sg > 10) return FALSE;
-		return TRUE;
-	}
-	
-	public function percent($p)
-	{
-		$p = (float)$p;
-		if($p < 0 || $p > 100.00) return FALSE;
-		return TRUE;
 	}
 
 } // End Validation

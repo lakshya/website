@@ -2,7 +2,7 @@
 /**
  * URL helper class.
  *
- * $Id: url.php 3769 2008-12-15 00:48:56Z zombor $
+ * $Id: url.php 4029 2009-03-03 12:39:32Z Shadowhand $
  *
  * @package    Core
  * @author     Kohana Team
@@ -243,22 +243,10 @@ class url_Core {
 			header('Location: '.$uri);
 		}
 
+		// We are about to exit, so run the send_headers event
+		Event::run('system.send_headers');
+
 		exit('<h1>'.$method.' - '.$codes[$method].'</h1>'.$output);
-	}
-	
-	function prepare($str = '')
-	{
-		if ($str == 'http://' OR $str == '')
-		{
-			return '';
-		}
-		
-		if (substr($str, 0, 7) != 'http://' && substr($str, 0, 8) != 'https://')
-		{
-			$str = 'http://'.$str;
-		}
-		
-		return $str;
 	}
 
 } // End url

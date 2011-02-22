@@ -2,7 +2,7 @@
 /**
  * Kohana process control file, loaded by the front controller.
  * 
- * $Id: Bootstrap.php 3800 2008-12-17 20:37:06Z zombor $
+ * $Id: Bootstrap.php 4409 2009-06-06 00:48:26Z zombor $
  *
  * @package    Core
  * @author     Kohana Team
@@ -10,8 +10,8 @@
  * @license    http://kohanaphp.com/license.html
  */
 
-define('KOHANA_VERSION',  '2.3');
-define('KOHANA_CODENAME', 'accipiter');
+define('KOHANA_VERSION',  '2.3.4');
+define('KOHANA_CODENAME', 'buteo regalis');
 
 // Test of Kohana is running in Windows
 define('KOHANA_IS_WIN', DIRECTORY_SEPARATOR === '\\');

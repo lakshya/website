@@ -4,7 +4,7 @@
  *
  * This path is relative to your index file. Absolute paths are also supported.
  */
-$config['directory'] = APPPATH."files/tmp/";
+$config['directory'] = DOCROOT.'upload';
 
 /**
  * Enable or disable directory creation.

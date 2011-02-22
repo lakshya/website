@@ -52,7 +52,7 @@ $config['global_xss_filtering'] = TRUE;
  * all hooks. By using an array of hook filenames, you can control
  * which hooks are enabled. Setting this option to FALSE disables hooks.
  */
-$config['enable_hooks'] = FALSE;
+$config['enable_hooks'] = TRUE;
 
 /**
  * Log thresholds:

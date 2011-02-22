@@ -2,7 +2,7 @@
 /**
  * HTML helper class.
  *
- * $Id: html.php 3783 2008-12-15 23:02:18Z samsoir $
+ * $Id: html.php 4376 2009-06-01 11:40:39Z samsoir $
  *
  * @package    Core
  * @author     Kohana Team
@@ -50,21 +50,39 @@ class html_Core {
 	}
 
 	/**
+	 * Perform a html::specialchars() with additional URL specific encoding.
+	 *  
+	 * @param   string   string to convert
+	 * @param   boolean  encode existing entities
+	 * @return  string
+	 */
+	public static function specialurlencode($str, $double_encode = TRUE)
+	{
+		return str_replace(' ', '%20', html::specialchars($str, $double_encode));
+	}
+	
+	/**
 	 * Create HTML link anchors.
 	 *
 	 * @param   string  URL or URI string
 	 * @param   string  link text
 	 * @param   array   HTML anchor attributes
 	 * @param   string  non-default protocol, eg: https
+	 * @param   boolean option to escape the title that is output
 	 * @return  string
 	 */
-	public static function anchor($uri, $title = NULL, $attributes = NULL, $protocol = NULL)
+	public static function anchor($uri, $title = NULL, $attributes = NULL, $protocol = NULL, $escape_title = FALSE)
 	{
 		if ($uri === '')
 		{
 			$site_url = url::base(FALSE);
 		}
-		elseif (strpos($uri, '://') === FALSE AND strpos($uri, '#') !== 0)
+		elseif (strpos($uri, '#') === 0)
+		{
+			// This is an id target link, not a URL
+			$site_url = $uri;
+		}
+		elseif (strpos($uri, '://') === FALSE)
 		{
 			$site_url = url::site($uri, $protocol);
 		}
@@ -80,11 +98,11 @@ class html_Core {
 
 		return
 		// Parsed URL
-		'<a href="'.html::specialchars($site_url, FALSE).'"'
+		'<a href="'.html::specialurlencode($site_url, FALSE).'"'
 		// Attributes empty? Use an empty string
 		.(is_array($attributes) ? html::attributes($attributes) : '').'>'
 		// Title empty? Use the parsed URL
-		.(($title === NULL) ? $site_url : $title).'</a>';
+		.($escape_title ? html::specialchars((($title === NULL) ? $site_url : $title), FALSE) : (($title === NULL) ? $site_url : $title)).'</a>';
 	}
 
 	/**
@@ -100,7 +118,7 @@ class html_Core {
 	{
 		return
 		// Base URL + URI = full URL
-		'<a href="'.html::specialchars(url::base(FALSE, $protocol).$file, FALSE).'"'
+		'<a href="'.html::specialurlencode(url::base(FALSE, $protocol).$file, FALSE).'"'
 		// Attributes empty? Use an empty string
 		.(is_array($attributes) ? html::attributes($attributes) : '').'>'
 		// Title empty? Use the filename part of the URI
@@ -116,7 +134,7 @@ class html_Core {
 	 * @param   array   HTML anchor attributes
 	 * @return  string
 	 */
-	public static function panchor($protocol, $uri, $title = FALSE, $attributes = FALSE)
+	public static function panchor($protocol, $uri, $title = NULL, $attributes = FALSE)
 	{
 		return html::anchor($uri, $title, $attributes, $protocol);
 	}
@@ -249,7 +267,7 @@ class html_Core {
 			}
 
 			// Return all of the tags as a string
-			return implode("\n\t", $tags);
+			return implode("\n", $tags);
 		}
 
 		// Set the meta attribute value
@@ -419,7 +437,7 @@ class html_Core {
 		$compiled = '';
 		foreach ($attrs as $key => $val)
 		{
-			$compiled .= ' '.$key.'="'.$val.'"';
+			$compiled .= ' '.$key.'="'.html::specialchars($val).'"';
 		}
 
 		return $compiled;

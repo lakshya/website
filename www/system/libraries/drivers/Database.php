@@ -2,7 +2,7 @@
 /**
  * Database API driver
  *
- * $Id: Database.php 3769 2008-12-15 00:48:56Z zombor $
+ * $Id: Database.php 4343 2009-05-08 17:04:48Z jheathco $
  *
  * @package    Core
  * @author     Kohana Team
@@ -11,7 +11,7 @@
  */
 abstract class Database_Driver {
 
-	static $query_cache;
+	protected $query_cache;
 
 	/**
 	 * Connect to our database.
@@ -124,18 +124,19 @@ abstract class Database_Driver {
 			}
 			else
 			{
-				if ( ! $this->has_operator($key))
+				if ( ! $this->has_operator($key) AND ! empty($key))
 				{
 					$key = $this->escape_column($key).' =';
 				}
 				else
 				{
-					var_dump($key);preg_match('/^(.+?)([<>!=]+|\bIS(?:\s+NULL))\s*$/i', $key, $matches);
+					preg_match('/^(.+?)([<>!=]+|\bIS(?:\s+NULL))\s*$/i', $key, $matches);
 					if (isset($matches[1]) AND isset($matches[2]))
 					{
 						$key = $this->escape_column(trim($matches[1])).' '.trim($matches[2]);
 					}
 				}
+
 				$value = ' '.(($quote == TRUE) ? $this->escape($value) : $value);
 			}
 		}
@@ -153,7 +154,7 @@ abstract class Database_Driver {
 	 * @param   int      number of likes
 	 * @return  string
 	 */
-	public function like($field, $match = '', $auto = TRUE, $type = 'AND ', $num_likes)
+	public function like($field, $match, $auto, $type, $num_likes)
 	{
 		$prefix = ($num_likes == 0) ? '' : $type;
 
@@ -177,7 +178,7 @@ abstract class Database_Driver {
 	 * @param   int     number of likes
 	 * @return  string
 	 */
-	public function notlike($field, $match = '', $auto = TRUE, $type = 'AND ', $num_likes)
+	public function notlike($field, $match, $auto, $type, $num_likes)
 	{
 		$prefix = ($num_likes == 0) ? '' : $type;
 
@@ -289,7 +290,7 @@ abstract class Database_Driver {
 	 */
 	public function has_operator($str)
 	{
-		return (bool) preg_match('/[<>!=]|\sIS(?:\s+NOT\s+)?\b/i', trim($str));
+		return (bool) preg_match('/[<>!=]|\sIS(?:\s+NOT\s+)?\b|BETWEEN/i', trim($str));
 	}
 
 	/**
@@ -336,7 +337,7 @@ abstract class Database_Driver {
 	 *
 	 * @return  array
 	 */
-	abstract public function list_tables(Database $db);
+	abstract public function list_tables();
 
 	/**
 	 * Lists all fields in a table.
@@ -430,11 +431,11 @@ abstract class Database_Driver {
 	{
 		if (empty($sql))
 		{
-			self::$query_cache = array();
+			$this->query_cache = array();
 		}
 		else
 		{
-			unset(self::$query_cache[$this->query_hash($sql)]);
+			unset($this->query_cache[$this->query_hash($sql)]);
 		}
 
 		Kohana::log('debug', 'Database cache cleared: '.get_class($this));

@@ -113,7 +113,7 @@ class email_Core {
 	 * @param   boolean       send email as HTML
 	 * @return  integer       number of emails sent
 	 */
-	public static function send($to, $from, $subject, $message, $replyto = NULL, $html = FALSE)
+	public static function send($to, $from, $subject, $message, $html = FALSE)
 	{
 		// Connect to SwiftMailer
 		(email::$mail === NULL) and email::connect();
@@ -123,9 +123,6 @@ class email_Core {
 
 		// Create the message
 		$message = new Swift_Message($subject, $message, $html, '8bit', 'utf-8');
-		
-		// Set the Reply -To field
-		if($replyto) $message->setReplyTo($replyto);
 
 		if (is_string($to))
 		{

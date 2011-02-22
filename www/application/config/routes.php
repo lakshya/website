@@ -2,6 +2,6 @@
 /**
  * @package  Core
  *
- * Sets the default route to "welcome"
+ * Sets the default route to "page"
  */
-$config['_default'] = 'welcome';
+$config['_default'] = 'home';

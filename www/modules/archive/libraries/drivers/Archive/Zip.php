@@ -24,6 +24,7 @@ class Archive_Zip_Driver implements Archive_Driver {
 	{
 		// Sort the paths to make sure that directories come before files
 		sort($paths);
+
 		foreach ($paths as $set)
 		{
 			// Add each path individually

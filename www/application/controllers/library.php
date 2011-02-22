@@ -173,5 +173,84 @@ class Library_Controller extends Template_Controller {
 		$this->template->content->data = $post;
 		$this->template->content->errors = $post->errors('library');
 	}
+	
+	function status($id = 0)
+	{
+		$book = $this->model->getBookDetailsById($id);
+		if(!$book)
+		{
+			// No book exists with the given id
+			$this->template->title = 'No Book Exists';
+			$this->template->heading = 'No Book Exists';
+			$this->template->content = 'No Book Exists';
+			return;
+		}
+		
+		$this->template->title = 'Book Tracker';
+		$this->template->heading = 'Book Tracker';
+		
+		$entries = ORM::factory('book_tracker')
+		->where('book_id', $id)
+		->find_all();
+
+		$this->template->content = new View('library/track');
+		$this->template->content->book = $book;
+		$this->template->content->entries = $entries;
+	}
+	
+	function add_track($id = 0)
+	{
+		$book = $this->model->getBookDetailsById($id);
+		if(!$book)
+		{
+			// No book exists with the given id
+			$this->template->title = 'No Book Exists';
+			$this->template->heading = 'No Book Exists';
+			$this->template->content = 'No Book Exists';
+			return;
+		}
+		
+		$post = new Validation($this->input->post());
+		
+		$post->add_rules('status', 'required');
+		$post->add_rules('owner', 'required');
+		
+		if($post->validate())
+		{
+			$entry = ORM::factory('book_tracker');
+			$entry->book_id = $id;
+			$entry->status = $post['status'];
+			$entry->owner = $post['owner'];
+			$entry->public_notes = $post['public_notes'];
+			$entry->private_notes = $post['private_notes'];
+			$entry->added_by = $this->session->get('username');
+			$entry->added_at = date('Y-m-d H:i:s');
+			
+			$entry->save();
+			
+			if($entry->saved)
+			{
+				$this->template->title = "Tracking Entry Added";
+				$this->template->heading = "Tracking Entry Added";
+				$this->template->content = new View('library/tracking-entry-added');
+			}
+			else 
+			{
+				Kohana::log('error', "Add Book Tracking failed into DB failed. username: {$this->session->get('username')}");
+				$this->template->title = 'Database Error';
+				$this->template->heading = 'Database Error';
+				$this->template->content = new View('includes/db-error');
+			}
+			return;
+		}
+		
+		$this->template->title = 'Add a Tracking Notes';
+		$this->template->heading = 'Add Book Tracking Note';
+
+		$this->template->content = new View('library/addTrackDetails');
+		$this->template->content->book = $book;
+		$this->template->content->data = $post;
+		$this->template->content->errors = $post->errors('library');
+	}
 }
 ?>

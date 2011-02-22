@@ -83,7 +83,7 @@ class User_Controller extends Template_Controller {
 			$user->save();
 			if($user->saved)
 			{
-				$this->tempalte->title = "Registration Completed";
+				$this->template->title = "Registration Completed";
 				$this->template->heading = "Registered successfully";
 				$this->template->content = new View('user/registered');
 			}

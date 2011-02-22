@@ -9,6 +9,12 @@ Class Library_Model extends Model
 		return $result[0]['donor_id'];
 	}
 	
+	function getBookDetailsById($id = 0)
+	{
+		$res = $this->db->from('lib_view')->where('book_id', $id)->get();
+		return $res[0];
+	}
+	
 	function getDonorDetails($donorId)
 	{
 		$data = $this->db->from('lib_donor')->where('donor_id', $donorId)->get();

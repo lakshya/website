@@ -12,7 +12,8 @@
                 		<li><a href="<?echo url::base().'scholorships'?>"><span class="l"></span><span class="r"></span><span class="t">Projects</span></a>
                 			<ul>
                 				<li><?echo html::anchor('scholarships','Lakshya Scholarships')?></li>
-								<li><?echo html::anchor('asthra','Asthra')?></li>
+								<!--li><?echo html::anchor('asthra','Asthra')?></li-->
+								<li><?echo html::anchor('http://www.theasthra.org','Asthra')?></li>
 								<li><?echo html::anchor('innovation','The Innovation Project')?></li>
 								<li><?echo html::anchor('library','The Library Project')?></li>
                                                                 <li><?echo html::anchor('ekjodikapda','Ek Jodi Kapda')?></li>

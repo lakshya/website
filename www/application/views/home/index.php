@@ -4,7 +4,10 @@ border: 1px solid #66cccc;
 word-spacing: 10px;
 }
 </style>
+The Lakshya Foundation is a registerd trust founded by the alumni of NIT Warangal. Its main aim is to effect a positive change in society by bringing together the students, faculty and alumni of the institute.
 <center>
+<br/>
+Here is a list of projects currently undertaken by the organization:
 <table width="100%" height="150px" cellspacing="10" border="0">
 <tr>
 

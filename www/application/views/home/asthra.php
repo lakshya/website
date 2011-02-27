@@ -7,4 +7,4 @@ Asthra is the name given to the project which aims to create a society free of c
   <li>Help others file RTIs </li>
 </ol>
 <p>Ultimately, every citizen should be an RTI activist.</p>
-<p><a href="http://asthranitw.wordpress.com">Click here</a> to visit NITW Asthra Blog </p>
+<p><a href="http://www.theasthra.org">Click here</a> to visit Asthra website </p>

@@ -176,6 +176,7 @@ class Library_Controller extends Template_Controller {
 	
 	function status($id = 0)
 	{
+		if(!$this->_permit('admin')) { $this->_denied(); return; }
 		$book = $this->model->getBookDetailsById($id);
 		if(!$book)
 		{
@@ -200,6 +201,7 @@ class Library_Controller extends Template_Controller {
 	
 	function add_track($id = 0)
 	{
+		if(!$this->_permit('admin')) { $this->_denied(); return; }
 		$book = $this->model->getBookDetailsById($id);
 		if(!$book)
 		{

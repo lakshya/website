@@ -1,3 +1,36 @@
+<!-- code for library poster to zoom : START-->
+<script type="text/javascript" src="/images/innovation/highslide/highslide-with-gallery.js"></script>
+<link rel="stylesheet" type="text/css" href="/images/innovation/highslide/highslide.css" />
+
+<!--
+	2) Optionally override the settings defined at the top
+	of the highslide.js file. The parameter hs.graphicsDir is important!
+-->
+
+<script type="text/javascript">
+	hs.graphicsDir = '/images/innovation/highslide/graphics/';
+	hs.align = 'center';
+	hs.transitions = ['expand', 'crossfade'];
+	hs.wrapperClassName = 'dark borderless floating-caption';
+	hs.fadeInOut = true;
+	hs.dimmingOpacity = .75;
+
+	// Add the controlbar
+	if (hs.addSlideshow) hs.addSlideshow({
+		//slideshowGroup: 'group1',
+		interval: 5000,
+		repeat: false,
+		useControls: true,
+		fixedControls: 'fit',
+		overlayOptions: {
+			opacity: .6,
+			position: 'bottom center',
+			hideOnMouseOut: true
+		}
+	});
+</script>
+<!-- code for library poster to zoom : END-->
+
 <p><b>Project Goal:</b> Providing curriculum/non-curriculum books to help
 students widen their horizon on various subjects.
 <p>
@@ -67,25 +100,37 @@ read and learn.</p>
 <br/>
 <div style="text-align:right;font-size:+1.2em"><b><u><a href="/library/donations/">View all donations &raquo;</a></u></b></div>
 
-
 <div id="stats">
 <span style="color: green; font-size: 14px;">
-<b>Statistics</b></span><br/><br/>
-<table width="40%" border="0" class="coTab" cellspacing="1" cellpadding="5">
+<b>Statistics</b></span><br />
+<table width="100%" border="0" cellspacing="2" cellpadding="5">
+<tr>
+<td width="70%">
+<table width="60%" border="0" class="coTab" cellspacing="1" cellpadding="5">
 	<tr>
 		<td bgcolor="#D7D6E9"><b>Parameters</b></td>
-		<td bgcolor="#D7D6E9"><b></b></td>
+		<td bgcolor="#D7D6E9"></td>
 	</tr>
-<tr>
-<td bgcolor="#efefef">Total No. of Curriculum Books</td><td style="text-align:right" bgcolor="#efefef"><?php echo $stats['cur']?></td>
-</tr>
-<tr>
-<td bgcolor="#efefef">Total No. of Non-curriculum Books</td><td style="text-align:right" bgcolor="#efefef"><?php echo $stats['non']?></td>
-</tr>
-<tr>
-<td bgcolor="#efefef">Total No. of Books</td><td style="text-align:right" bgcolor="#efefef"><?php echo $stats['cur'] + $stats['non']?></td>
-</tr><tr>
-<td bgcolor="#efefef">Number of Donors</td><td style="text-align:right" bgcolor="#efefef"><?php echo $stats['donors']?></td>
+	<tr>
+		<td bgcolor="#efefef">Total No. of Curriculum Books</td>
+		<td style="text-align:right" bgcolor="#efefef"><?php echo $stats['cur']?></td>
+	</tr>
+	<tr>
+		<td bgcolor="#efefef">Total No. of Non-curriculum Books</td>
+		<td style="text-align:right" bgcolor="#efefef"><?php echo $stats['non']?></td>
+	</tr>
+	<tr>
+		<td bgcolor="#efefef">Total No. of Books</td>
+		<td style="text-align:right" bgcolor="#efefef"><?php echo $stats['cur'] + $stats['non']?></td>
+	</tr>
+	<tr>
+		<td bgcolor="#efefef">Number of Donors</td>
+		<td style="text-align:right" bgcolor="#efefef"><?php echo $stats['donors']?></td>
+	</tr>
+</table>
+</td>
+
+<td><a href="/images/library/poster.jpg" class="highslide" onClick="return hs.expand(this)"><img src="/images/library/poster.jpg" alt="Highslide JS" width="100" title="Click to enlarge" /></a></td>
 </tr>
 </table>
 </div>

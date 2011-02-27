@@ -17,11 +17,11 @@
                                     <div class="BlockContent-body">
                                         <div>
                                               
-                                        <table border=0 cellspacing=3>
-                                        <tr><td>  <?=html::anchor('quicklinks/faqs','FAQs');?><br/>  </td></tr>
-                                        <tr><td>  <?=html::anchor('quicklinks/downloads','Downloads');?><br/>  </td></tr>
-                                        <tr><td>  <?=html::anchor('quicklinks/genMeet','General Body Meeting');?><br/>  </td></tr>
-                                        <tr><td>  <?=html::anchor('gallery','Gallery');?><br/>  </td></tr>
+                                        <table border=0 cellspacing=3 style="border:0;">
+                                        <tr><td style="border:0;padding:2px;">  <?=html::anchor('quicklinks/faqs','FAQs');?><br/>  </td></tr>
+                                        <tr><td style="border:0;padding:2px;">  <?=html::anchor('quicklinks/downloads','Downloads');?><br/>  </td></tr>
+                                        <tr><td style="border:0;padding:2px;">  <?=html::anchor('quicklinks/genMeet','General Body Meeting');?><br/>  </td></tr>
+                                        <tr><td style="border:0;padding:2px;">  <?=html::anchor('gallery','Gallery');?><br/>  </td></tr>
                                         </table>
 <!-- Facebook Like button -->
 <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FThe-Lakshya-Foundation%2F155497721149511&amp;layout=button_count&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>

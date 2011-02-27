@@ -1,35 +1,37 @@
-<style>
-.coTab{
-border: 1px solid #D7D6E9;
-}
+<STYLE TYPE="text/css" MEDIA="all">
+<!--
+  @import url(/css/tableSort.css);
+-->
+</STYLE>
 
-.coTab td{
-height:20px;
-vertical-align:middle;
-padding-left: 10px;
-text-align: left;
-}
-
-</style>
 Updated on: February 15, 2011
 <br/>
 <center>
-<table width="100%" border="0" class="coTab" cellspacing="1">
+<!-- old header row colour: bgcolor="#D7D6E9" -->
+<!-- old body colour: bgcolor="#efefef" -->
+<table id="test1" class="sortable-onload-5-reverse rowstyle-alt no-arrow" width="100%" border="0" cellspacing="1">
+<thead>
 	<tr>
-		<td bgcolor="#D7D6E9"><b>Name</b></td>
-		<td bgcolor="#D7D6E9"><b>Batch</b></td>
-		<td bgcolor="#D7D6E9"><b>Branch</b></td>
-		<td bgcolor="#D7D6E9"><b>Amount</b></td>
-		<td bgcolor="#D7D6E9"><b>Last Donated on</b></td>
+		<th style="-moz-user-select: none;" class="fd-column-0 sortable-text"><a title="Sort on “Name”" href="#"><b>Name</b></th>
+		<th style="-moz-user-select: none;" class="fd-column-1 sortable-numeric"><a title="Sort on “Batch”" href="#"><b>Batch</b></th>
+		<th style="-moz-user-select: none;" class="fd-column-2 sortable-text"><a title="Sort on “Branch”" href="#"><b>Branch</b></th>
+		<th style="-moz-user-select: none;" class="fd-column-3 sortable-numeric "><a title="Sort on “Amount”" href="#"><b>Amount</b></th>
+		<th style="-moz-user-select: none;" class="fd-column-4 sortable-date-dmy"><a title="Sort on “Last Donated on”" href="#"><b>Last Donated on</b></th>
 	</tr>
+</thead>
+<tbody>
+
 <?foreach($data as $row):?>
-	<tr>
-		<td bgcolor="#efefef"><?=$row->name?></td>
-		<td bgcolor="#efefef"><?=$row->batch?></td>
-		<td bgcolor="#efefef"><?=$row->branch?></td>
-		<td bgcolor="#efefef"><?=$row->donAmount?></td>
-		<td bgcolor="#efefef"><?=date('jS  M,  Y',strtotime($row->lastDon))?></td>
+	<tr class="">
+		<td><?=$row->name?></td>
+		<td><?=$row->batch?></td>
+		<td><?=$row->branch?></td>
+		<td><?=$row->donAmount?></td>
+		<td><?=date('d/m/Y',strtotime($row->lastDon))?></td>
 	</tr>
 <?endforeach?>
+
+</tbody>
 	</table>
 </center>
+<script type="text/javascript" src="/scripts/tablesort.js"></script>

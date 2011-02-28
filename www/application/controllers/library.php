@@ -103,7 +103,13 @@ class Library_Controller extends Template_Controller {
 			$res = $this->model->donateBook($this->input->post());
 
 			$body = new View('mails/newBookDonation',$this->input->post());
+			
+			// Send a notification mail to Harish
 			$this->_email('harishsvs@gmail.com','Lakshya-Library-New Book Donated',$body->render());
+			
+			// Send a acknowledge mail to the donor
+			$ackMail = new View('mails/bookDonationAcknowledge', $this->input->post());
+			$this->_email($post['email'], 'Thank you for donating book(s) to Lakshya', $ackMail->render());
 
 			$this->template->heading = "";
 			$this->template->content = new View('library/bookAdded');

@@ -7,87 +7,7 @@ body.sort-active *
         cursor:wait;
         }
 */
-
-/* 
- * This is not required. We only need css for the table
- */
-/*starts here...
-body
-        {
-        padding:0;
-        border:0;
-        margin:0;
-        text-align:center;
-        font-size:12px;
-        font-family: verdana,arial,sans-serif;
-        color:#545454;
-        min-width: 800px;
-        background-color: white;
-        }
-
-h2 span
-        {
-        font-variant:small-caps;
-        }
-p a:link
-        {
-        background:transparent;
-        color:#678602;
-        text-decoration:none;
-        font-weight:normal;
-        }
-p a:visited
-        {
-        color:#83aa00;
-        background:transparent;
-        text-decoration:none;
-        font-weight:normal;
-        }
-p a:hover
-        {
-        color:#880000;
-        background:transparent;
-        text-decoration:none;
-        font-weight:normal;
-        }
-code
-        {
-        font-family:'andale mono','lucida console','courier new',monospace;
-        font-size:1em;
-        }
-p
-        {
-        line-height:1.6em;
-        margin:0 0 1em 0;
-        }
-h1
-        {
-        font-weight:lighter;
-        font-family:georgia, times new roman, times, georgia, palatino, serif;
-        text-align:center;
-        margin-top:0.6em;
-        color:#97BC45;
-        font-size:2em;
-        }
-h2
-        {
-        font-weight:lighter;
-        font-family:verdana,arial,sans-serif;
-        text-align:center;
-        margin-top:1em;
-        color:#333;
-        text-transform:uppercase;
-        letter-spacing:1px;
-        font-size:1.2em;
-        }
-h2 span
-        {
-        font-variant:small-caps;
-        text-transform:none;
-        } 
-...ends here*/
-
-table
+table.sort
         {
         width: auto;
         padding: 0;
@@ -119,7 +39,7 @@ caption
         text-align: right;
         }
 
-th
+th.sort
         {
         font: bold 10px/22px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
         color: #4f6b72;
@@ -163,16 +83,16 @@ th.sortable-sortFileSize
         background: #CAE8EA url(/images/tableSort/bg_header_sortable.jpg) no-repeat;
         padding: 8px 12px 4px 16px;
         }
-th.forwardSort
+th.sort.forwardSort
         {
         background:#CAE8EA url(/images/tableSort/bg_header_down.jpg) no-repeat 0 0;
         }
-th.reverseSort
+th.sort.reverseSort
         {
         background:#CAE8EA url(/images/tableSort/bg_header_up.jpg) no-repeat 0 0;
         }
-th.forwardSort a,
-th.reverseSort a
+th.sort.forwardSort a,
+th.sort.reverseSort a
         {
         color:#000;
         outline:0 none;
@@ -191,30 +111,30 @@ th.sort-active a
         }
 */
 
-th a
+th.sort a
         {
         text-decoration:none;
         color: #4f6b72;
         }
 
-td a
+td.sort a
         {
         text-decoration:none;
         color:#239;
         }
 
-td img
+td.sort img
         {
         margin:0 auto;
         border:3px solid #ddd;
         }
-td a:hover
+td.sort a:hover
         {
         color:#a84444;
         border-bottom:1px dotted #a80000;
         }
 
-td
+td.sort
         {
         font: Arial, Helvetica, sans-serif;
         border-right: 1px solid #C1DAD7;
@@ -223,11 +143,11 @@ td
         color: #4f6b72;
         }
 
-td.lft
+td.sort.lft
         {
         text-align:left;
         }
-tr.alt
+tr.sort.alt
         {
         background: #F5FAFA;
         color: #797268;

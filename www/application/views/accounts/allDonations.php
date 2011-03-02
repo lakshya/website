@@ -3,7 +3,7 @@
   @import url(/css/tableSort.css);
 -->
 </STYLE>
-<script type="text/javascript" src="/scripts/tablefilter.js"></script>
+
 Updated on: February 15, 2011
 <br/>
 <center>
@@ -33,19 +33,5 @@ Updated on: February 15, 2011
 
 </tbody>
 	</table>
-<script language="javascript" type="text/javascript">
-//<![CDATA[
-	var table5_Props = 	{
-					col_width: ["40%","10%","10%","20%","20%"],//prevents column width variations
-					rows_counter: true,
-					rows_counter_text: "Total rows: ",
-					btn_reset: true,
-					bnt_reset_text: "Clear all"
-				};
-	setFilterGrid( "donTable",table5_Props );
-//]]>
-</script>
-
 </center>
 <script type="text/javascript" src="/scripts/tablesort.js"></script>
-

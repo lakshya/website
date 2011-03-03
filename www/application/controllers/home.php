@@ -153,6 +153,13 @@ class Home_Controller extends Template_Controller {
 		$this->template->heading = 'Gallery';
 		$this->template->content = new View('home/gallery');
 	}
-	
+
+        function lakshyaLive()
+	{
+		$this->template->title = 'Lakshya LIVE';
+		$this->template->heading = 'Lakshya LIVE!';
+		$this->template->content = new View('home/lakshyaLive');
+	}
+
 }
 ?>

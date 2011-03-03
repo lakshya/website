@@ -35,14 +35,13 @@
 	});
 </script>
 
+<h7><p align="center"><a href="<?=url::base().'lakshyaLive'?>">Lakshya LIVE! - Watch live streaming of the Innovation Project finals.<br/> Saturday 5th March, 2:30 pm onwards.</a></p></h7>
 <p>Technology plays a key role in shaping a societies future.Where better to search for innovative solutions than engineering colleges.If the National Innovation Foundation can reap benefits of rural innovations, one can only wonder what potential lay in students.</p>
 <p>The Innovation Project is an incentive for students to pursue technology as a tool to overcome today's difficulties. </p>
 <p>India's jugaad philosophy urgently needs an upgrade and we're hoping it will come from a few of these bright young minds.</p>
 <p>We will be calling for abstracts and after a rigorous process, a few will be given the opportunity to transform their idea into and prototype and, if its a hit, into a product.</p>
 <br/>
 <h2>Shortlisted projects for 2010-2011</h2>
-<h3>The projects shortlisted for the final round are (in no specific order):</h3>
-<blockquote>
 <ol>
 <li><span class="projectTitle">Anti theft device for 4-wheelers</span>
 	<ul>

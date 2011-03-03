@@ -13,10 +13,7 @@ else
 <b>Project Goal:</b> To fund NIT Warangal students in need of financial assistance.<br/>
 <p>This was Lakshya's first project, a milestone of sorts in student-alumni-faculty relations.<br/>
   <br/>
-  There are some students who find it hard to pay their institute fee, and this might be weighing them down from transforming their full potential into results. Lakshya verifies such applicants and has been pays institute fee. Apart from payments, we are extending this project to cover:<br/>
-  <br/>
-  1. All round development through the Mentoring program.<br/>
-  2. Making this a complete scholarship by issuing basic curriculum books for each semester.</p>
+  There are some students who find it hard to pay their institute fee, and this might be weighing them down from transforming their full potential into results. Lakshya verifies such applicants and pays their institute fee. Apart from payments, we are making this a complete scholarship by issuing basic curriculum books for each semester.</p>
 <!--
 <p>The amazing student team along with the young alumni have now taken over the reins. We started off by accepting applications in paper-pencil format and today have an online application process which is both easy to fill and helps us do our bit for the environment. The login facility and mass-mailing facilities allow the applicant to keep track of his/her application status at all times.</p>
 -->

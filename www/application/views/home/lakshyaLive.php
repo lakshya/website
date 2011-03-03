@@ -1,6 +1,6 @@
 
 <p align="center">
-Please refresh the page if the video does not stream even after the scheduled start time. Alernatively, you can click on the refresh icon on the player itself, but this sometimes does not work as expected.
+Please refresh the page if the video does not stream even after the scheduled start time. Alternatively, you can click on the refresh icon on the player itself, but this sometimes does not work as expected.
 </p>
 <p>
 <b>Event:</b> The Innovation Project - Presentations by shortlisted teams (Final round)<br/>

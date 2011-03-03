@@ -67,7 +67,7 @@ input[type=text] {
 		<td>:</td>
 		<td>
 		<?php 
-		$book_statuses = array('YES' => 'Pending', 'NO' => 'Received');
+		$book_statuses = array('YES' => 'Received', 'NO' => 'Pending');
 		echo form::dropdown('status', $book_statuses, $data['status']);
 		?>
 		</td>

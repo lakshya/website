@@ -30,7 +30,7 @@ class Upgrade_Controller extends Template_Controller {
 	 * 
 	 * @var array of strings
 	 */
-	private $functions_to_call = array();
+	private $functions_to_call = array('add_copies_to_books_table');
 	
 	/**
 	 * 
@@ -98,5 +98,38 @@ EOT;
 			}
 		}
 	}
+	
+	/**
+	 * 
+	 * Adds copies field to the Library Book table
+	 * @return bool
+	 * @author saich
+	 */
+	private function add_copies_to_books_table()
+	{
+		$db = Database::instance();
+		if($db->table_exists('lib_book'))
+		{
+			$fields = $db->list_fields('lib_book');
+			if(!array_key_exists('copies', $fields))
+			{
+				$cmd = "alter table {$db->table_prefix()}lib_book 
+						add copies smallint unsigned not null default 1 after author";
+				$db->query($cmd);
+				return true;
+			}
+			else
+			{
+				Kohana::log('error', "copies column already exists in lib_book table, 
+									but still upgrade function add_copies_to_books_table is called!!");
+			}
+		}
+		else
+		{
+			Kohana::log('error',"lib_book table doesn't exist in the DB");
+		}
+		return false;
+	}
 }
+
 ?>

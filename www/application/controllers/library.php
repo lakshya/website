@@ -159,6 +159,14 @@ class Library_Controller extends Template_Controller {
 		$post->add_rules('title', 'required');
 		$post->add_rules('status','required');
 		$post->add_rules('typeOfBook', 'required');
+		$post->add_rules('copies', 'required', 'digit');
+		
+		if(!empty($post['copies']))
+		{
+			$copies = (int)$post['copies'];
+			if($copies < 1)
+				$post->add_error('copies', 'zero_copies');
+		}
 		
 		if($post->validate())
 		{
@@ -176,7 +184,7 @@ class Library_Controller extends Template_Controller {
 
 		$this->template->content = new View('library/edit');
 		$this->template->content->details = $details;
-		$this->template->content->data = $post;
+		$this->template->content->data = $post->as_array();
 		$this->template->content->errors = $post->errors('library');
 	}
 	

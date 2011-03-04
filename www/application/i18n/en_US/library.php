@@ -6,6 +6,18 @@ $lang = array
 		'default'  => 'Invalid Name of Donor'
 	),
 	
+	'author' => Array(
+		'required' => 'Name of the Author cannot be blank',
+		'default'  => 'Invalid Name of Author'
+	),
+	
+	'copies' => Array(
+		'required'		=> 'No. of copies is required',
+		'default'		=> 'Invalid no. of copies',
+		'digit'			=> 'Copies field must be numeric',
+		'zero_copies' 	=> 'No. of copies MUST be atleast 1'
+	),
+	
 	'email' => Array(
 		'required' => 'Email cannot be blank',
 		'email' => 'Invalid Email',

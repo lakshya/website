@@ -47,6 +47,11 @@ input[type=text] {
 		<td><?php echo form::input('author', $data['author'])?></td>
 	</tr>
 	<tr>
+		<td>*Copies</td>
+		<td>:</td>
+		<td><?php echo form::input('copies', $data['copies'])?></td>
+	</tr>
+	<tr>
 		<td>*Type of Book</td>
 		<td>:</td>
 		<td>

@@ -73,6 +73,7 @@ Class Library_Model extends Model
 		return $this->db->update('lib_book', array(
 							'title' => $data['title'],
 							'author' => $data['author'],
+							'copies' => $data['copies'],
 							'typeOfBook' => $data['typeOfBook'],
 							'donDate' => $data['donDate'],
 							'status' => $data['status']), 

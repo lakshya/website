@@ -49,6 +49,7 @@ function preFillBookForms()
 			bookContainer.getElementsByClassName('donMonth')[0].value = initial_data['donMonth'][i];
 			bookContainer.getElementsByClassName('donYear')[0].value = initial_data['donYear'][i];
 			bookContainer.getElementsByClassName('typeOfBook')[0].value = initial_data['typeOfBook'][i];
+			bookContainer.getElementsByClassName('copies')[0].value = initial_data['copies'][i];
 			toggle("bookDetails_" + (i+1), bookContainer.getElementsByClassName('typeOfBook')[0].value);
 		} catch(ex) {}
 	}
@@ -68,7 +69,7 @@ function addBookForm()
 	removeContainer.appendChild(removeLink);
 
 	var bookTypeNode = newNode.getElementsByClassName('typeOfBook')[0];
-	var changeFn = 'toggle("bookDetails_' + count + '",event.target.value);'
+	var changeFn = 'toggle("bookDetails_' + count + '",event.target.value);';
 	bookTypeNode.setAttribute('onchange', changeFn);
 	container.appendChild(newNode);
 }
@@ -114,6 +115,11 @@ $data = arr::overwrite($defaults, $data);
 		<td>Author</td>
 		<td>:</td>
 		<td><input type="text" class="author" name="author[]" value="" /></td>
+	</tr>
+	<tr>
+		<td>*No. of Copies</td>
+		<td>:</td>
+		<td><input style="width:30px" type="text" class="copies" name="copies[]" value="1" maxlength="3" /></td>
 	</tr>
 	<tr>
 		<td>*Type of Book</td>

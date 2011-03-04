@@ -50,6 +50,7 @@ Class Library_Model extends Model
 			$res = $this->db->insert('lib_book', array('donor_id' => $id,
 	                                                     'title' => $data['title'][$i], 
 	                                                     'author' => $data['author'][$i], 
+														 'copies' => $data['copies'][$i],
 	                                                     'typeOfBook' => $data['typeOfBook'][$i], 
 	                                                     'donDate' => $db_date));
 		}

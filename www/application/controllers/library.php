@@ -73,6 +73,17 @@ class Library_Controller extends Template_Controller {
 				$post->add_error('title', 'zero_books');
 			for($i=0;$i < $numBooks; $i++)
 			{
+				if(empty($_POST['copies'][$i]))
+					$post->add_error('copies', 'required');
+				else if(!valid::digit($_POST['copies'][$i])){
+					$post->add_error('copies', 'digit');
+				}
+				else {
+					$num_copies = (int)$_POST['copies'][$i];
+					
+					if($num_copies < 1)
+						$post->add_error('copies', 'zero_copies');
+				}
 				if(empty($_POST['title'][$i]))
 					$post->add_error('title', 'required');
 

@@ -25,7 +25,7 @@
 		<td bgcolor="#efefef"><?=$row->name?> 
 		(<?php echo html::mailto($row->email, 'E-Mail')?> 
 		| <?php echo html::anchor("library/edit/{$row->book_id}", 'Edit')?>)</td>
-		<td bgcolor="#efefef"><?=$row->title?> by <?php echo $row->title; if($row->copies > 1) echo " (<span title=\"Number of Copies\"><i>{$row->copies} copies</i></span>)"?></td>
+		<td bgcolor="#efefef"><?=$row->title?> by <?php echo $row->author; if($row->copies > 1) echo " (<span title=\"Number of Copies\"><i>{$row->copies} copies</i></span>)"?></td>
 		<?if($row->status == "NO"):?>
 		<?if($row->donDate == "0000-00-00"):?>
 		<td bgcolor="#efefef">Pledged</td>

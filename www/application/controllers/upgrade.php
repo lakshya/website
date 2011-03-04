@@ -30,7 +30,7 @@ class Upgrade_Controller extends Template_Controller {
 	 * 
 	 * @var array of strings
 	 */
-	private $functions_to_call = array('add_copies_to_books_table');
+	private $functions_to_call = array('add_copies_to_books_table', 'add_copies_to_books_view');
 	
 	/**
 	 * 
@@ -130,6 +130,23 @@ EOT;
 		}
 		return false;
 	}
+	
+	/**
+	 * 
+	 * Recreating the Books View, to include the copies field in it.
+	 * 
+	 * author saich
+	 */
+	private function add_copies_to_books_view()
+	{
+		$db = Database::instance();
+		$cmd = "create or replace view {$db->table_prefix()}lib_view as 
+			select * from {$db->table_prefix()}lib_book 
+			join {$db->table_prefix()}lib_donor using (donor_id)";
+		$db->query($cmd);
+		return true;
+	}
+	//
 }
 
 ?>

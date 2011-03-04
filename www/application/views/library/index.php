@@ -76,7 +76,9 @@ read and learn.</p>
 	<?foreach($data as $row):?>
 	<tr>
 		<td bgcolor="#efefef"><?= html::anchor("library/donor/$row->donor_id",$row->name)?></td>
-		<td bgcolor="#efefef"><?=$row->title?></td>
+		<td bgcolor="#efefef">
+		<?php echo $row->title; if($row->copies > 1) echo " (<span title=\"Number of Copies\"><i>{$row->copies} copies</i></span>)"?>
+		</td>
 		<td bgcolor="#efefef"><?=$row->author?></td>
 		<?if($row->status == "NO"):?>
 		<?if($row->donDate == "0000-00-00"):?>

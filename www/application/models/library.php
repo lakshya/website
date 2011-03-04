@@ -83,8 +83,14 @@ Class Library_Model extends Model
 	
 	function getStatistics()
 	{
-		$data['non'] = $this->db->count_records('lib_book', array('typeOfBook' => 'non'));
-		$data['cur'] = $this->db->count_records('lib_book', array('typeOfBook' => 'cur'));
+		$r1 = $this->db->select('sum(copies) as ANS')->where('typeOfBook', 'non')->from('lib_book')
+			->get()->result(FALSE);
+		$data['non'] = $r1[0]['ANS'];
+		
+		$r2 = $this->db->select('sum(copies) as ANS')->where('typeOfBook', 'cur')->from('lib_book')
+			->get()->result(FALSE);
+		$data['cur'] = $r2[0]['ANS'];
+		
 		$data['donors'] = count($this->db->query('SELECT DISTINCT donor_id FROM lakshya_lib_book'));
 		return $data;
 	}

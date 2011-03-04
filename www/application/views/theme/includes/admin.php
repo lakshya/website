@@ -12,6 +12,7 @@
 		<ul style="list-style:none;">
 		<li style="clear:both;"><?= html::anchor('admin','Admin Control Center')?></li>
 		<li><?= html::anchor('admin/donAdd','Add a Donation')?></li>
+		<li><?= html::anchor('library/manage','Manage Book Donations')?></li>
 		</ul>
 		</div> 
 	</div>

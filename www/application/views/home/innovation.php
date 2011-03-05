@@ -34,7 +34,7 @@
 		}
 	});
 </script>
-
+<h7><p align="center"><b>Innovation Project finals venue has been shifted to ECE Seminar Hall, NITW</b></p></h7>
 <h7><p align="center"><a href="<?=url::base().'lakshyaLive'?>">Lakshya LIVE! - Watch live streaming of the Innovation Project finals.<br/> Saturday 5th March, 2:30 pm onwards.</a></p></h7>
 <p>Technology plays a key role in shaping a societies future.Where better to search for innovative solutions than engineering colleges.If the National Innovation Foundation can reap benefits of rural innovations, one can only wonder what potential lay in students.</p>
 <p>The Innovation Project is an incentive for students to pursue technology as a tool to overcome today's difficulties. </p>

@@ -6,8 +6,17 @@ RewriteEngine On
 # Setting the base to Root directory
 #RewriteBase /
 
+# Redirecting to www for main domain to avoid session and cookie problems
 RewriteCond %{HTTP_HOST} ^thelakshyafoundation\.org$ [NC]
-RewriteRule ^(.*)$ http://www.thelakshyafoundation.org/$1 [R=301,L]
+RewriteRule ^(.*)$ http://www.thelakshyafoundation\.org/$1 [R=301,L]
+
+# Remove the extra www from the sub-domains by redirecting
+RewriteCond %{HTTP_HOST} ^www\.([^.]+)\.thelakshyafoundation\.org$
+RewriteRule ^(.*)$ http://%1\.thelakshyafoundation\.org/$1 [R=301,L]
+
+# Redirecting blog to subdomain
+RewriteCond %{HTTP_HOST} ^thelakshyafoundation\.org/blog$ [NC]
+RewriteRule ^(.*)$ http://blog.thelakshyafoundation\.org/$1 [R=301,L]
 
 # Protect application and system files from being viewed
 RewriteRule ^(application|modules|system) - [F,L]

@@ -6,8 +6,6 @@ word-spacing: 10px;
 </style>
 The Lakshya Foundation is a registerd trust founded by the alumni of NIT Warangal. Its main aim is to effect a positive change in society by bringing together the students, faculty and alumni of the institute.
 <center>
-<h7><p align="center"><b>Innovation Project finals venue has been shifted to ECE Seminar Hall, NITW</b></p></h7>
-<h7><p align="center"><a href="<?=url::base().'lakshyaLive'?>">Lakshya LIVE! - Watch live streaming of the Innovation Project finals.<br/> Saturday 5th March, 2:30 pm onwards.</a></p></h7>
 <br/>
 Here is a list of projects currently undertaken by the organization:
 <table width="100%" height="150px" cellspacing="10" border="0">

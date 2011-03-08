@@ -890,6 +890,71 @@ The advantages of having such a system are:
         <b>Updates :</b><br/>
         <ol><li>Stopped Funding</li><li>-</li></ol>
         </div>
+	<li><a onclick="expand('Rajiv Jayaswal')"><font style="cursor:pointer">Rajiv Jayaswal</font></a><font color="gray"> (Funded by the Trahi Foundation*)</font></li>
+        <div id="Rajiv Jayaswal" style="display:none">
+        <br/>
+        <table width="100%" border="0" class="coTab" cellspacing="1">
+              <tr>
+                 <td colspan="2" bgcolor="#D7D6E9"><b>Personal details</b></td>
+                 <td colspan="2" bgcolor="#D7D6E9"><b>Financial Details</b></td>
+                 <td colspan="2" bgcolor="#D7D6E9"><b>Academic Details</b></td>
+              </tr>
+              <tr>
+                 <td bgcolor="#efefef"><span style="color:green">Branch</span></td>
+                 <td bgcolor="#efefef">CSE</td> 
+                 <td bgcolor="#efefef"><span style="color:green">Father's Profession</span></td>
+                 <td bgcolor="#efefef">Vegetable seller</td>
+                 <td bgcolor="#efefef"><span style="color:green">SSC(%)</span></td>
+                 <td bgcolor="#efefef">71</td>
+              </tr>
+              <tr>
+                 <td bgcolor="#efefef"><span style="color:green">Roll No.</span></td>
+                 <td bgcolor="#efefef">CS87508</td>
+                 <td bgcolor="#efefef"><span style="color:green">Mother's Profession</span></td>
+                 <td bgcolor="#efefef">Housewife</td>
+                 <td bgcolor="#efefef"><span style="color:green">Inter(%)</span></td>
+                 <td bgcolor="#efefef">75</td>
+              </tr>
+              <tr>
+                 <td bgcolor="#efefef"><span style="color:green">D.O.B.</span></td>
+                 <td bgcolor="#efefef">31 May 1988</td>
+                 <td bgcolor="#efefef"><span style="color:green">Family's Annual Income</span></td>
+                 <td bgcolor="#efefef">25000</td>
+                 <td bgcolor="#efefef"><span style="color:green">AIEEE AIR</span></td>
+                 <td bgcolor="#efefef">3835</td>
+              </tr>
+        </table>
+        <br/>
+        <table width="100%" border="0" class="coTab" cellspacing="1">
+              <tr>
+                 <td bgcolor="#D7D6E9"><b>Semester</b></td>
+                 <td bgcolor="#D7D6E9"><b>I</b></td>
+                 <td bgcolor="#D7D6E9"><b>II</b></td>
+                 <td bgcolor="#D7D6E9"><b>III</b></td>
+                 <td bgcolor="#D7D6E9"><b>IV</b></td>
+                 <td bgcolor="#D7D6E9"><b>V</b></td>
+                 <td bgcolor="#D7D6E9"><b>VI</b></td>
+                 <td bgcolor="#D7D6E9"><b>VII</b></td>
+                 <td bgcolor="#D7D6E9"><b>VIII</b></td>
+              </tr> 
+              <tr>
+                 <td bgcolor="#efefef"><b>SGPA</b></td>
+                 <td bgcolor="#efefef">8.88</td>
+                 <td bgcolor="#efefef">9.12</td>
+                 <td bgcolor="#efefef">8.38</td>
+                 <td bgcolor="#efefef">8.38</td>
+                 <td bgcolor="#efefef">7.92</td>
+                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">-</td>
+              </tr> 
+              
+        </table>
+        <br/>
+        <b>Details</b><br/>
+        <ol><li>From Supaul , Bihar</li></ol>
+        </div>
+
 </ul>
 </ul>
 
@@ -1170,15 +1235,9 @@ The advantages of having such a system are:
         <b>Details</b><br/>
         <ol><li>From Gopal ganj, Bihar</li></ol>
         </div>
-</ul>
-</ul>
 
-<!-- shortlisted for 2014 batch-->
-<ul>
-<li>Applicants who deserve funding but don't have it yet</li>
-<ul>
-	<li><a onclick="expand('Rajiv Jayaswal')"><font style="cursor:pointer">Rajiv Jayaswal</font></a></li>
-        <div id="Rajiv Jayaswal" style="display:none">
+	<li><a onclick="expand('Rahul upadhyay')"><font style="cursor:pointer">Rahul Upadhyay</font></a><font color="gray"> (Funded by the Trahi Foundation*)</font></li>
+        <div id="Rahul upadhyay" style="display:none">
         <br/>
         <table width="100%" border="0" class="coTab" cellspacing="1">
               <tr>
@@ -1190,25 +1249,25 @@ The advantages of having such a system are:
                  <td bgcolor="#efefef"><span style="color:green">Branch</span></td>
                  <td bgcolor="#efefef">CSE</td> 
                  <td bgcolor="#efefef"><span style="color:green">Father's Profession</span></td>
-                 <td bgcolor="#efefef">Vegetable seller</td>
+                 <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef"><span style="color:green">SSC(%)</span></td>
-                 <td bgcolor="#efefef">71</td>
+                 <td bgcolor="#efefef">96</td>
               </tr>
               <tr>
                  <td bgcolor="#efefef"><span style="color:green">Roll No.</span></td>
-                 <td bgcolor="#efefef">CS87508</td>
+                 <td bgcolor="#efefef">E10012</td>
                  <td bgcolor="#efefef"><span style="color:green">Mother's Profession</span></td>
                  <td bgcolor="#efefef">Housewife</td>
                  <td bgcolor="#efefef"><span style="color:green">Inter(%)</span></td>
-                 <td bgcolor="#efefef">75</td>
+                 <td bgcolor="#efefef">93</td>
               </tr>
               <tr>
                  <td bgcolor="#efefef"><span style="color:green">D.O.B.</span></td>
-                 <td bgcolor="#efefef">31 May 1988</td>
+                 <td bgcolor="#efefef">10 Nov 1991</td>
                  <td bgcolor="#efefef"><span style="color:green">Family's Annual Income</span></td>
-                 <td bgcolor="#efefef">25000</td>
+                 <td bgcolor="#efefef"></td>
                  <td bgcolor="#efefef"><span style="color:green">AIEEE AIR</span></td>
-                 <td bgcolor="#efefef">3835</td>
+                 <td bgcolor="#efefef">2840</td>
               </tr>
         </table>
         <br/>
@@ -1226,11 +1285,11 @@ The advantages of having such a system are:
               </tr> 
               <tr>
                  <td bgcolor="#efefef"><b>SGPA</b></td>
-                 <td bgcolor="#efefef">8.88</td>
-                 <td bgcolor="#efefef">9.12</td>
-                 <td bgcolor="#efefef">8.38</td>
-                 <td bgcolor="#efefef">8.38</td>
-                 <td bgcolor="#efefef">7.92</td>
+                 <td bgcolor="#efefef">9.69</td>
+                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
@@ -1239,8 +1298,16 @@ The advantages of having such a system are:
         </table>
         <br/>
         <b>Details</b><br/>
-        <ol><li>From Supaul , Bihar</li></ol>
+        <ol><li>From Gwalior, Madhya Pradesh</li> </ol>
         </div>
+
+</ul>
+</ul>
+
+<!-- shortlisted for 2014 batch-->
+<ul>
+<li>Applicants who deserve funding but don't have it yet</li>
+<ul>
 	<li><a onclick="expand('Kapil Rajak')"><font style="cursor:pointer">Kapil Rajak</font></a></li>
         <div id="Kapil Rajak" style="display:none">
         <br/>
@@ -1306,70 +1373,6 @@ The advantages of having such a system are:
         <ol><li>From Rajgrah, Madya Pradesh</li> </ol>
         </div>
 
-	<li><a onclick="expand('Rahul upadhyay')"><font style="cursor:pointer">Rahul upadhyay</font></a></li>
-        <div id="Rahul upadhyay" style="display:none">
-        <br/>
-        <table width="100%" border="0" class="coTab" cellspacing="1">
-              <tr>
-                 <td colspan="2" bgcolor="#D7D6E9"><b>Personal details</b></td>
-                 <td colspan="2" bgcolor="#D7D6E9"><b>Financial Details</b></td>
-                 <td colspan="2" bgcolor="#D7D6E9"><b>Academic Details</b></td>
-              </tr>
-              <tr>
-                 <td bgcolor="#efefef"><span style="color:green">Branch</span></td>
-                 <td bgcolor="#efefef">CSE</td> 
-                 <td bgcolor="#efefef"><span style="color:green">Father's Profession</span></td>
-                 <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef"><span style="color:green">SSC(%)</span></td>
-                 <td bgcolor="#efefef">96</td>
-              </tr>
-              <tr>
-                 <td bgcolor="#efefef"><span style="color:green">Roll No.</span></td>
-                 <td bgcolor="#efefef">E10012</td>
-                 <td bgcolor="#efefef"><span style="color:green">Mother's Profession</span></td>
-                 <td bgcolor="#efefef">Housewife</td>
-                 <td bgcolor="#efefef"><span style="color:green">Inter(%)</span></td>
-                 <td bgcolor="#efefef">93</td>
-              </tr>
-              <tr>
-                 <td bgcolor="#efefef"><span style="color:green">D.O.B.</span></td>
-                 <td bgcolor="#efefef">10 Nov 1991</td>
-                 <td bgcolor="#efefef"><span style="color:green">Family's Annual Income</span></td>
-                 <td bgcolor="#efefef"></td>
-                 <td bgcolor="#efefef"><span style="color:green">AIEEE AIR</span></td>
-                 <td bgcolor="#efefef">2840</td>
-              </tr>
-        </table>
-        <br/>
-        <table width="100%" border="0" class="coTab" cellspacing="1">
-              <tr>
-                 <td bgcolor="#D7D6E9"><b>Semester</b></td>
-                 <td bgcolor="#D7D6E9"><b>I</b></td>
-                 <td bgcolor="#D7D6E9"><b>II</b></td>
-                 <td bgcolor="#D7D6E9"><b>III</b></td>
-                 <td bgcolor="#D7D6E9"><b>IV</b></td>
-                 <td bgcolor="#D7D6E9"><b>V</b></td>
-                 <td bgcolor="#D7D6E9"><b>VI</b></td>
-                 <td bgcolor="#D7D6E9"><b>VII</b></td>
-                 <td bgcolor="#D7D6E9"><b>VIII</b></td>
-              </tr> 
-              <tr>
-                 <td bgcolor="#efefef"><b>SGPA</b></td>
-                 <td bgcolor="#efefef">9.69</td>
-                 <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
-              </tr> 
-              
-        </table>
-        <br/>
-        <b>Details</b><br/>
-        <ol><li>From Gwalior, Madhya Pradesh</li> </ol>
-        </div>
 <li><a onclick="expand('Aidki Prakash')"><font style="cursor:pointer">Aidki Prakash</font></a></li>
         <div id="Aidki Prakash" style="display:none">
         <br/>
@@ -1630,3 +1633,4 @@ The advantages of having such a system are:
 </ul>
 </ul>
 </div>
+*The Trahi Foundation is an organization formed by the 1993 batch NITW alumni and is based in Bangalore.

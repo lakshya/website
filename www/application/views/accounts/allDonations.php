@@ -10,6 +10,7 @@
 	$(document).ready(function() {
 
 		var donTable = $('#donTable');
+		var rowcount;
             // Initialise Plugin
             var options1 = {
                 additionalFilterTriggers: [$('#quickfind')],
@@ -22,13 +23,26 @@
             };
 
 			function setRowCountOnDonTable() {
-				var rowcount = donTable.find('tbody tr:not(:hidden)').length;
+				rowcount = donTable.find('tbody tr:not(:hidden)').length;
 				$('#rowcount').text('(' + rowcount + ' rows displayed)');
+
+				//To calculate sum of donations
+				var i;
+				var sum=0;
+				for(i=2;i<(document.getElementById('donTable').rows.length-1);i++)
+				{
+					if(document.getElementById('donTable').rows[i].style.display!='none')
+						sum= sum + parseInt(document.getElementById('donTable').rows[i].cells[3].innerHTML,10);
+				}
+				document.getElementById('sum').innerHTML = sum;
+
 			}
 			
 			donTable.tableFilter(options1);
 			setRowCountOnDonTable();
 	});
+
+
     </script>
 <!-- Table sorting: http ://www.frequency-decoder.com/-->
 <!-- Table filtering: http ://www.picnet.com.au/picnet_table_filter.html-->
@@ -41,7 +55,8 @@
 </tr>
 </table>
 
-<span id='rowcount'></span>
+<center><span id='rowcount'></span></center>
+
 <!-- old header row colour: bgcolor="#D7D6E9" -->
 <!-- old body colour: bgcolor="#efefef" -->
 <table id="donTable" class="sort sortable-onload-5-reverse rowstyle-alt no-arrow" width="100%" border="0" cellspacing="1">
@@ -55,7 +70,6 @@
 	</tr>
 </thead>
 <tbody>
-
 <?foreach($data as $row):?>
 	<tr class="sort">
 		<td class="sort"><?=$row->name?></td>
@@ -65,6 +79,17 @@
 		<td class="sort"><?=date('d/m/Y',strtotime($row->lastDon))?></td>
 	</tr>
 <?endforeach?>
+
+  <tfoot>
+	<tr class="sort">
+		<td class="sort"></td>
+		<td class="sort"></td>
+		<td class="sort" style="color:green"><b>Sum</b></td>
+		<td class="sort" style="color:green" id="sum"></td>
+		<td class="sort"></td>
+	</tr>
+  </tfoot>
+
 
 </tbody>
 	</table>

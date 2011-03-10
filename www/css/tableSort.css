@@ -38,7 +38,6 @@ caption
         font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
         text-align: right;
         }
-
 th.sort
         {
         font: bold 10px/22px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
@@ -50,9 +49,37 @@ th.sort
         text-transform: uppercase;
         text-align: left;
         padding: 8px 12px 4px 12px;
-        background: #CAE8EA url(/images/tableSort/bg_header.jpg) no-repeat;
+        background: #CAE8EA;
         vertical-align:middle;
         }
+tr.filters
+        {
+        border-top: 1px solid #C1DAD7;
+        border-right: 2px solid #CAE8EA;
+        border-bottom: 2px solid #CAE8EA;
+        background: #CAE8EA;
+        vertical-align:middle;
+        }
+
+input.filter
+        {
+        border-top: 2px solid #CAE8EA;
+        border-right: 2px solid #CAE8EA;
+        border-bottom: 2px solid #CAE8EA;
+        border-left: 5px solid #CAE8EA;
+        }
+
+input.filter:focus
+        {
+        outline:none;
+        }
+
+
+select.filter
+        {
+	margin:5px;
+        }
+
 td.total
         {
         border-top: 0;

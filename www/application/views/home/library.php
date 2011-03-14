@@ -11,7 +11,7 @@ text-align: left;
 }
 
 </style>
-
+ 
 <p>Lakshya's Library Project is an initiative meant to provide non-curriculum books covering a wide spectrum of subjects to help the student read, think and base opinions on sound judgement and knowledge. </p>
 <p>We look to provide books ranging from novels and biographies to non-fiction, books on history, and much more. Television and the internet will always exist, but its contents once absorbed, a book becomes a part of us forever.<br/>
   No medium can influence the human psyche more than a book. Religions, economies and even military doctrines have risen from works of authors who poured their thoughts in their writings for future generations to read and learn.</p>

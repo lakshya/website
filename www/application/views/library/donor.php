@@ -39,8 +39,8 @@
 <!-- Table sorting: http ://www.frequency-decoder.com/-->
 <!-- Table filtering: http ://www.picnet.com.au/picnet_table_filter.html-->
 <br/>
+Quick Find: <input type="text" id="quickfind"/>
 <center>
-Quick Find: <input type="text" id="quickfind"/><span style="padding-left:45%" class="updatedOn">Updated on: March 09, 2011</span>
 <center><span id='rowcount'></span></center>
 <table id="donTable" width="100%" class="sort sortable-onload-5-reverse rowstyle-alt no-arrow" border="0" class="coTab" cellspacing="1">
 <thead>

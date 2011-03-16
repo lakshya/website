@@ -7,6 +7,12 @@ body.sort-active *
         cursor:wait;
         }
 */
+
+span.updatedOn
+	{
+	font-size: 80%;	
+	}
+
 table.sort
         {
         width: auto;

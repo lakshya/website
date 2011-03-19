@@ -15,7 +15,7 @@
 			Username:<br/>
 			<input type="text" value="" name="username" style="width: 150px;"/><br/><br/>
 			Password:<br/>
-			<input type="password" value="" name="passwd" style="width: 150px;"/><br/>
+			<input type="password" value="" name="password" style="width: 150px;"/><br/>
 			<button class="Button" type="submit" name="signin">
 			<span class="btn">
             <span class="l"></span>

@@ -13,14 +13,15 @@ class User_Controller extends Template_Controller {
 		$post = new Validation($this->input->post());
 
 		$post->add_rules('username','required','username');
-		$post->add_rules('passwd', 'required', 'length[5,40]');
+		$post->add_rules('password', 'required', 'length[5,40]');
 
 		$this->session->set_flash('url',$this->input->post('url'));
 		if($post->validate())
 		{
+			// TODO: The password hashing should be from a wrapper helper function
 			$result = ORM::factory('user')
 			->where('username', $post['username'])
-			->where('password', $post['passwd'])
+			->where('password', sha1($post['password']))
 			->find();
 
 			if($result->loaded)
@@ -109,22 +110,6 @@ class User_Controller extends Template_Controller {
 	{
 		$this->session->destroy();
 		url::redirect('');
-	}
-
-	function _unique_username(Validation $array, $field)
-	{
-		$result = ORM::factory('user')
-		->where('username', $array[$field])
-		->count_all();
-		if($result > 0) $array->add_error($field, 'username_exists');
-	}
-
-	function _unique_email(Validation $array, $field)
-	{
-		$result = ORM::factory('user')
-		->where('email', $array[$field])
-		->count_all();
-		if($result > 0) $array->add_error($field, 'email_exists');
 	}
 }
 ?>

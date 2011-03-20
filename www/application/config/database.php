@@ -31,14 +31,14 @@ $config['default'] = array
 	(
 		'type'     => 'mysql',
 		'user'     => 'root',
-		'pass'     => 'root',
+		'pass'     => '',
 		'host'     => '127.0.0.1',
 		'port'     => FALSE,
 		'socket'   => FALSE,
-		'database' => 'thelaksh_lakshya'
+		'database' => 'lakshya'
 	),
 	'character_set' => 'utf8',
-	'table_prefix'  => 'thelaksh_',
+	'table_prefix'  => 'lakshya_',
 	'object'        => TRUE,
 	'cache'         => FALSE,
 	'escape'        => TRUE

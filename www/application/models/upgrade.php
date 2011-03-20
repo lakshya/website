@@ -15,7 +15,7 @@ class Upgrade_Model extends ORM {
 	public function validate(array& $data, $save = FALSE)
 	{
 		$data = Validation::factory($data)
-				->add_rules('name', 'required', 'length[2, 48]')
+				->add_rules('name', 'required', 'length[2,48]')
 				->add_callbacks('name', array($this, '_unique_field'));
 		return parent::validate($data, $save);
 	}

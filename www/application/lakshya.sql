@@ -10,7 +10,7 @@ create table users(
 	primary key(id),
 	unique key(username),
 	unique key(email)
-);
+)ENGINE = InnoDB;
 
 create table profiles(
 	id				int unsigned auto_increment,
@@ -30,8 +30,8 @@ create table profiles(
 	country			varchar(48),
 	other_details	text,
 	primary key(id),
-	foreign key(user_id) references users(id)
-);
+	foreign key(user_id) references users(id) on delete cascade on update cascade
+)ENGINE = InnoDB;
 
 create table testimonials(
 	id			int unsigned auto_increment,
@@ -39,8 +39,8 @@ create table testimonials(
 	added_at	datetime,
 	content		text,	/* content of the testimonial */
 	primary key(id),
-	foreign key(user_id) references users(id)
-);
+	foreign key(user_id) references users(id) on delete set null on update cascade
+)ENGINE = InnoDB;
 
 create table expenses(
 	id				int unsigned auto_increment,
@@ -51,27 +51,27 @@ create table expenses(
 	document		varchar(128),
 	added_at		datetime,
 	primary key(id)
-);
+)ENGINE = InnoDB;
 
 create table books(
 	id			int unsigned auto_increment,
 	title		varchar(128),	/* book title */
 	category	varchar(3),		/* academic or non-academic */
 	primary key(id)
-);
+)ENGINE = InnoDB;
 
 create table authors(
 	id		int unsigned auto_increment,
 	name	varchar(56), /* name of the author */
 	primary key(id)
-);
+)ENGINE = InnoDB;
 
 create table authors_books(
 	author_id	int unsigned,	/* book author */
 	book_id		int unsigned,	/* book id */
-	foreign key(book_id) references books(id),
-	foreign key(author_id) references authors(id)
-);
+	foreign key(book_id) references books(id) on delete cascade on update cascade,
+	foreign key(author_id) references authors(id) on delete cascade on update cascade
+)ENGINE = InnoDB;
 
 create table money_donations(
 	id				int unsigned auto_increment,
@@ -83,8 +83,8 @@ create table money_donations(
 	details			text,					/* additional details */
 	added_at		datetime,
 	primary key(id),
-	foreign key(user_id) references users(id)
-);
+	foreign key(user_id) references users(id) on delete set null on update cascade
+)ENGINE = InnoDB;
 
 create table book_donations(
 	id				int unsigned auto_increment,
@@ -101,9 +101,9 @@ create table book_donations(
 	added_at		datetime,
 	modified_at		datetime,
 	primary key(id),
-	foreign key(book_id) references books(id),
-	foreign key(user_id) references users(id)
-);
+	foreign key(book_id) references books(id) on delete cascade on update cascade,
+	foreign key(user_id) references users(id) on delete set null on update cascade
+)ENGINE = InnoDB;
 
 create table cloth_donations(
 	id				int unsigned auto_increment,
@@ -119,8 +119,8 @@ create table cloth_donations(
 	added_at		datetime,
 	modified_at		datetime,
 	primary key(id),
-	foreign key(user_id) references users(id)
-);
+	foreign key(user_id) references users(id) on delete set null on update cascade
+)ENGINE = InnoDB;
 
 create table newsletter_subscriptions(
 	id			int unsigned auto_increment,
@@ -132,7 +132,7 @@ create table newsletter_subscriptions(
 	primary key(id),
 	unique key(pass_key),
 	unique key(email)
-);
+)ENGINE = InnoDB;
 
 create table newsletter_unsubscriptions(
 	id				int unsigned auto_increment,
@@ -140,8 +140,8 @@ create table newsletter_unsubscriptions(
 	reason			text,	/* reason of unsubscription */
 	added_at		datetime,
 	primary key(id),
-	foreign key(subscription_id) references newsletter_subscribers(id)
-);
+	foreign key(subscription_id) references newsletter_subscribers(id) on delete cascade on update cascade
+)ENGINE = InnoDB;
 
 create table confirmations(
 	id				int unsigned auto_increment,
@@ -152,7 +152,7 @@ create table confirmations(
 	expires_at		datetime,		/* expiration time of the activation key */
 	confirmed_at	datetime,		/* time of key confirmation */
 	primary key(id)
-);
+)ENGINE = InnoDB;
 
 create table upgrades(
 	id			int unsigned auto_increment,
@@ -160,4 +160,4 @@ create table upgrades(
 	added_at	datetime, 						/* time of upgradation */
 	primary key(id),
 	unique key(name)
-);
+)ENGINE = InnoDB;

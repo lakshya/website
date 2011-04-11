@@ -9,17 +9,37 @@
  */
 class Update_Controller extends Template_Controller {
 	
+	/**
+	 * This function upgrades the current beta site to main site.
+	 * 
+	 * Requires admin privileges to do it
+	 * 
+	 * @author saich
+	 */
 	function index()
 	{
 		if(!$this->_permit('admin')) { $this->_denied(); return; }
 		
-		// Beta to www
-		// Delete 'www_backup'
-		// Copy 'www' to 'www_backup'
-		// Copy 'beta' to 'www'
-		// Copy config/database.php & logs/
-		// Set Permissions on logs/ & cache/
-		// Run upgrade on it
+		// Work outside the web root
+		chdir('..');
+		
+		// delete the old backup & create a new one
+		system('rm -rf www_backup');
+		system('mv public_html/www www_backup/');
+		
+		system('cp public_html/beta/ public_html/www/');
+		
+		// delete the logs copied from beta site
+		system('rm -f public_html/www/application/logs/*.log.php');
+		
+		// copy the correct www/ database config file
+		system('cp www_backup/application/config/database.php public_html/www/application/config/database.php');
+		
+		// copy the original files
+		system('cp www_backup/application/logs/* public_html/www/application/logs/');
+		
+		// Call upgrade on the main site
+		system('wget http://www.thelakshyafoundation.org/upgrade/');
 	}
 	
 	/**

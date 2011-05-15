@@ -1,3 +1,4 @@
+
 <div class="Block-body">
     <div class="BlockHeader">
         <div class="header-tag-icon">
@@ -16,13 +17,7 @@
 			<input type="text" value="" name="username" style="width: 150px;"/><br/><br/>
 			Password:<br/>
 			<input type="password" value="" name="passwd" style="width: 150px;"/><br/>
-			<button class="Button" type="submit" name="signin">
-			<span class="btn">
-            <span class="l"></span>
-            <span class="r"></span>
-            <span class="t">Sign In</span>
-            </span>
-			</button>
+			<button type="submit" name="signin">Sign In</button>
 			</form>
 			</div>
     <a href="/forgot"><font style="font-size:11px">Forgot Username / Password</font></a>

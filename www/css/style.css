@@ -1446,6 +1446,30 @@ input, select
   text-align: justify;
 }
 
+/** Button's stying */
+button, input[type=button], input[type=submit], input[type=reset] {
+	color: #293233;
+	height: 28px;
+	line-height: 24px;
+	background-color: #69B3D0;
+	border: 1px #448EB2 solid;
+	border-radius: 5px;
+	margin:  5px 1px 2px 1px;
+	padding: 2px 10px;
+	font-size: 13px;
+	font-family: Arial,Helvetica,Sans-Serif;
+}
+
+button:hover, input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+	color: #0E3D4E;
+	background-color: #939E96;
+}
+
+button:active, input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
+	color: #EDF4F8;
+	background-color: #265367;
+}
+
 /* css by SaiSharan */
 .errors
 {

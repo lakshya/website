@@ -18,13 +18,7 @@
                                         <div><form method="post" action="/newsletter">
 										Email-id:
                                         <input type="text" name="email" style="width: 150px;"/>
-                                        <button class="Button" type="submit">
-                                              <span class="btn">
-                                                  <span class="l"></span>
-                                                  <span class="r"></span>
-                                                  <span class="t">Subscribe</span>
-                                              </span>
-                                        </button>
+                                        <button type="submit">Subscribe</button>
                                         </form></div>
                                     </div>
                                 </div>

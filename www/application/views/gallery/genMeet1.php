@@ -39,7 +39,7 @@ function nextImage()
 <td colspan="3" align="center"><img name="mainimage" border="1" src="/images/genMeet1/dsc00805.jpg"></td>
 </tr>
 <tr>
-	<td align="left"><input type="button" value=" &laquo; Back" onClick="javascript:prevImage()"></td>
+	<td align="left"><input type="button" value="&laquo; Back" onClick="javascript:prevImage()"></td>
 	<td align="center">
 	
 	<select id="optionlist" onChange="javascript:changeImage()" style="display:none">

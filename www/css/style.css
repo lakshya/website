@@ -1476,3 +1476,49 @@ button:active, input[type=button]:active, input[type=submit]:active, input[type=
 	color: red;
 }
 /* css end */
+
+/* css for tabs in schol page */
+#page {
+	margin: auto;
+	width: 1000px;
+}
+
+
+UL.mytabs {
+	position: relative;
+	z-index: 2;
+}
+UL.mytabs, UL.mytabs LI {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+UL.mytabs LI { padding: 0 5px; 	background-image: none;}
+UL.mytabs LI A {
+	float: left;
+	padding: 7px;
+	border: 1px solid #CCCCCC;
+	border-bottom: 1px solid #E0E0E0;
+	background: #F0F0F0;
+	text-decoration: none;
+	color: #333333;
+	height: 22px;
+}
+UL.mytabs LI A:HOVER, UL.mytabs LI.current A {
+	background: #FFFFFF;	
+}
+UL.mytabs LI.current A {
+	font-weight: bold;
+	font-size: 14px;
+	border-bottom: 1px solid #FFFFFF;
+}
+.mytabs-container {
+	position: relative;
+	z-index: 1;
+	clear: both;
+	border: 1px solid #E0E0E0;
+	padding: 10px;
+	top: -1px;
+}
+/* css for schol page end */

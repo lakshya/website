@@ -154,7 +154,7 @@ class Home_Controller extends Template_Controller {
 		$this->template->content = new View('home/gallery');
 	}
 
-    function lakshyaLive()
+        function lakshyaLive()
 	{
 		$this->template->title = 'Lakshya LIVE';
 		$this->template->heading = 'Lakshya LIVE!';
@@ -166,6 +166,42 @@ class Home_Controller extends Template_Controller {
 		$this->template->title = 'Fee Structure of NIT, Warangal';
 		$this->template->heading = 'Fee Structure of NIT, Warangal';
 		$this->template->content = new View('home/fee_structure');
+	}
+	function firstYear()
+	{
+		$this->template->title = 'First year Lakshya Scholars';
+		$this->template->heading = 'First year Lakshya Scholars';
+		$this->template->content = new View('home/scholarDetails/firstYear');
+	}
+	function secondYear()
+	{
+		$this->template->title = 'Second year Lakshya Scholars';
+		$this->template->heading = 'Second year Lakshya Scholars';
+		$this->template->content = new View('home/scholarDetails/secondYear');
+	}
+	function thirdYear()
+	{
+		$this->template->title = 'Third year Lakshya Scholars';
+		$this->template->heading = 'Third year Lakshya Scholars';
+		$this->template->content = new View('home/scholarDetails/thirdYear');
+	}
+	function finalYear()
+	{
+		$this->template->title = 'Final year Lakshya Scholars';
+		$this->template->heading = 'Final year Lakshya Scholars';
+		$this->template->content = new View('home/scholarDetails/finalYear');
+	}
+	function graduated()
+	{
+		$this->template->title = 'Graduated Lakshya Scholars';
+		$this->template->heading = 'Graduated Lakshya Scholars';
+		$this->template->content = new View('home/scholarDetails/graduated');
+	}
+	function waitlisted()
+	{
+		$this->template->title = 'Waitlisted Lakshya Scholars';
+		$this->template->heading = 'Waitlisted Lakshya awaiting';
+		$this->template->content = new View('home/scholarDetails/waitlisted');
 	}
 
 }

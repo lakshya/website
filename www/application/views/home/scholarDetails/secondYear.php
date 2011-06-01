@@ -61,7 +61,7 @@ else
                  <td bgcolor="#efefef">9.00</td>
                  <td bgcolor="#efefef">9.38</td>
                  <td bgcolor="#efefef">8.79</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">9.07</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
@@ -135,7 +135,7 @@ else
                  <td bgcolor="#efefef">7.3</td>
                  <td bgcolor="#efefef">7.1</td>
                  <td bgcolor="#efefef">7.64</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">7.36</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>

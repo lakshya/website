@@ -60,7 +60,7 @@ else
               <tr>
                  <td bgcolor="#efefef"><b>SGPA</b></td>
                  <td bgcolor="#efefef">9.35</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">9.31</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
@@ -124,7 +124,7 @@ else
               <tr>
                  <td bgcolor="#efefef"><b>SGPA</b></td>
                  <td bgcolor="#efefef">7.46</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">6.85</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
@@ -189,7 +189,7 @@ else
               <tr>
                  <td bgcolor="#efefef"><b>SGPA</b></td>
                  <td bgcolor="#efefef">9.69</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">9.92</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>

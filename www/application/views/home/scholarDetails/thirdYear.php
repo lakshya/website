@@ -63,7 +63,7 @@ else
                  <td bgcolor="#efefef">8.78</td>
                  <td bgcolor="#efefef">8.07</td>
                  <td bgcolor="#efefef">8.07</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">8.23</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
               </tr> 
@@ -155,7 +155,7 @@ else
         </table>
         <br/>
         <b>Updates :</b><br/>
-        <ol><li>Discontinued funding him.</li><li>-</li></ol>
+        <ol><li>Discontinued funding because academic performance was not up to the mark.</li><li>-</li></ol>
         </div>
 	<li><a onclick="expand('Praveen')"><font style="cursor:pointer">Durgam Praveen Kumar
 </font></a></li>
@@ -212,7 +212,7 @@ else
                  <td bgcolor="#efefef">7.68</td>
                  <td bgcolor="#efefef">6.50</td>
                  <td bgcolor="#efefef">7.23</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">7.96</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
               </tr> 
@@ -287,7 +287,7 @@ else
                  <td bgcolor="#efefef">9.00</td>
                  <td bgcolor="#efefef">9.00</td>
                  <td bgcolor="#efefef">9.04</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">8.96</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
               </tr> 
@@ -362,7 +362,7 @@ else
                  <td bgcolor="#efefef">8.96</td>
                  <td bgcolor="#efefef">8.65</td>
                  <td bgcolor="#efefef">8.42</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">9.19</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
               </tr> 
@@ -438,7 +438,7 @@ else
                  <td bgcolor="#efefef">8.69</td>
                  <td bgcolor="#efefef">8.23</td>
                  <td bgcolor="#efefef">8.96</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">8.00</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
               </tr> 
@@ -455,7 +455,7 @@ else
               </tr>
         </table>
         <br/>
-        <b>Updates :</b><br/>
+        <b>Updates:</b><br/>
         <ol><li>-</li><li>-</li></ol>
         </div>
 <li><a onclick="expand('Shekhar Suman')"><font style="cursor:pointer">Shekhar Suman</font></a></li>
@@ -531,8 +531,8 @@ else
               </tr>
         </table>
         <br/>
-        <b>Updates :</b><br/>
-        <ol><li>Stopped Funding</li><li>-</li></ol>
+        <b>Updates:</b><br/>
+        <ol><li>Discontinued funding because academic performance was not up to the mark.</li><li>-</li></ol>
         </div>
 	<li><a onclick="expand('Rajiv Jayaswal')"><font style="cursor:pointer">Rajiv Jayaswal</font></a><font color="gray"> (Funded by the Trahi Foundation*)</font></li>
         <div id="Rajiv Jayaswal" style="display:none">
@@ -553,7 +553,7 @@ else
               </tr>
               <tr>
                  <td bgcolor="#efefef"><span style="color:green">Roll No.</span></td>
-                 <td bgcolor="#efefef">CS87508</td>
+                 <td bgcolor="#efefef">CS08750</td>
                  <td bgcolor="#efefef"><span style="color:green">Mother's Profession</span></td>
                  <td bgcolor="#efefef">Housewife</td>
                  <td bgcolor="#efefef"><span style="color:green">Inter(%)</span></td>
@@ -588,7 +588,7 @@ else
                  <td bgcolor="#efefef">8.38</td>
                  <td bgcolor="#efefef">8.38</td>
                  <td bgcolor="#efefef">7.92</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">7.67</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
               </tr> 

@@ -61,7 +61,7 @@ else
               <tr>
                  <td bgcolor="#efefef"><b>SGPA</b></td>
                  <td bgcolor="#efefef">6.77</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">7.15</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
@@ -127,7 +127,7 @@ else
                  <td bgcolor="#efefef"><b>SGPA</b></td>
                  <td bgcolor="#efefef">6.38</td>                 
 	<td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">3.50</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
@@ -192,7 +192,7 @@ else
                  <td bgcolor="#efefef"><b>SGPA</b></td>
                  <td bgcolor="#efefef">8.00</td>                 
 	<td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">8.00</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
@@ -257,7 +257,7 @@ else
                  <td bgcolor="#efefef">8.62</td>                 
 		 <td bgcolor="#efefef">8.58</td>
                  <td bgcolor="#efefef">7.58</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">7.67</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
@@ -320,7 +320,7 @@ else
                  <td bgcolor="#efefef"><b>SGPA</b></td>
                  <td bgcolor="#efefef">6.00</td>                 
 	<td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">6.19</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>

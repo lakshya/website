@@ -131,6 +131,7 @@ else
                  <td bgcolor="#D7D6E9"><b>VI</b></td>
                  <td bgcolor="#D7D6E9"><b>VII</b></td>
                  <td bgcolor="#D7D6E9"><b>VIII</b></td>
+              <td bgcolor="#D7D6E9"><b>CGPA</b></td>
               </tr> 
               <tr>
                  <td bgcolor="#efefef"><b>SGPA</b></td>
@@ -141,7 +142,8 @@ else
                  <td bgcolor="#efefef">8.92</td>
                  <td bgcolor="#efefef">9.04</td>
                  <td bgcolor="#efefef">8.99</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">8.88</td>
+                 <td bgcolor="#efefef">9.00</td>
               </tr> 
               <tr>
                 <td bgcolor="#efefef"><b>Lakshya Funding Details</b></td>

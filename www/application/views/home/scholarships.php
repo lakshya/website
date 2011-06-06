@@ -30,6 +30,9 @@ The advantages:
 </p>
 </div>
 <br/>
+*The Trahi Foundation is an organization formed by the 1993 batch NITW alumni and is based in Bangalore.
+<br/>
+<br/>
 <b>The Lakshya Scholars:</b><br/><br/>
         <ul class="mytabs" id="tabs">
             <li class="current"><a href="<?=url::base().'graduated/?output=ajax'?>">Graduated</a></li>
@@ -45,5 +48,3 @@ The advantages:
         </div>
     <script type="text/javascript" src="/scripts/jquery.min.js"></script>
     <script type="text/javascript" src="/scripts/tab.js"></script> 
-
-*The Trahi Foundation is an organization formed by the 1993 batch NITW alumni and is based in Bangalore.

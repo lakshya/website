@@ -50,13 +50,13 @@ India's jugaad philosophy urgently needs an upgrade and we're hoping it will com
   <li><a href="<?=url::base().'images/downloads/TIP_Abstract_guidelines_V3.pdf'?>" target="_blank">Abstract Submission Guidelines</a></li>
   <li><a href="<?=url::base().'images/downloads/TIP_FinalRd_guidelines_V3.pdf'?>" target="_blank">Final Round Guidelines.</a>   </li>
 </ol>
-<h2>Important Dates for the 2011 competition</h2>
+<!--<h2>Important Dates for the 2011 competition</h2>
 <ol>
   <li>January 22nd 2011  - Entries Close</li>
   <li>February 13th 2011 - Shortlist for Final Round.</li>
   <li>March 5th,6th 2011 - Presentations by shortlisted Teams.</li>
-</ol>
-<h2>Important Points</h2>
+</ol>-->
+<h2>Important points to note</h2>
 <ol>
 
   <li><b>Mail all entries to info@TheLakshyaFoundation.org.</b></li>

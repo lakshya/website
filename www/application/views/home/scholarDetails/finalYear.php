@@ -66,7 +66,7 @@ else
                  <td bgcolor="#efefef">8.00</td>
                  <td bgcolor="#efefef">8.92</td>
                  <td bgcolor="#efefef">8.62</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">6.77</td>
               <td bgcolor="#efefef">8.49</td>
 </tr> 
               <tr>

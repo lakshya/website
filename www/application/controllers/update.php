@@ -21,14 +21,15 @@ class Update_Controller extends Template_Controller {
 		if(!$this->_permit('admin')) { $this->_denied(); return; }
 		
 		// Work outside the web root
-		chdir('..');
+		chdir('../..');
 		
 		// delete the old backup & create a new one
 		system('rm -rf www_backup');
+
 		system('mv public_html/www www_backup/');
 		
-		system('cp public_html/beta/ public_html/www/');
-		
+		system('cp -r public_html/beta public_html/www');
+	
 		// delete the logs copied from beta site
 		system('rm -f public_html/www/application/logs/*.log.php');
 		

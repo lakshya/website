@@ -74,7 +74,7 @@ else
                 <td bgcolor="#efefef">-</td>
                 <td bgcolor="#efefef">-</td>
                 <td bgcolor="#efefef">-</td>
-                <td bgcolor="#efefef">-</td>
+                <td bgcolor="#efefef">1500</td>
                 <td bgcolor="#efefef">16000</td>
                 <td bgcolor="#efefef">6200</td>
                 <td bgcolor="#efefef">19000</td>

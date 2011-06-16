@@ -4,10 +4,7 @@ border: 1px solid #66cccc;
 word-spacing: 10px;
 }
 </style>
-The Lakshya Foundation is a registerd trust founded by the alumni of NIT Warangal. Its main aim is to effect a positive change in society by bringing together the students, faculty and alumni of the institute.
 <center>
-<br/>
-Here is a list of projects currently undertaken by the organization:
 <table width="100%" height="150px" cellspacing="10" border="0">
 <tr>
 
@@ -15,8 +12,8 @@ Here is a list of projects currently undertaken by the organization:
 	<table class="pro" width="100%" height="150px">
 		<tr><td colspan="2" bgcolor="#dfdfdf" height="25px" align="center"><font style="color: #152a33; font-weight:bold;">Lakshya Scholarships</font></td></tr>
 		<tr><td width="50px"><a href="<?=url::base().'scholarships'?>"><img src="/images/proj1.jpg" alt="Project1" width="150" height="150"/></a></td>
-		<td>Lakshya looks to move from a grant model to an <b>interest-free loan model</b> for its scholarship project... &nbsp;&nbsp;&nbsp;<br/>
-		  <a href="<?=url::base().'scholarships'?>">More&raquo;</a></td></tr>
+		<td>Lakshya has moved from a grant model to an <b>interest-free loan model</b> for its scholarship project...<br/>
+		  <a href="<?=url::base().'scholarships'?>">More>></a></td></tr>
 	</table>
 	</td>
 	
@@ -24,8 +21,8 @@ Here is a list of projects currently undertaken by the organization:
 	<table class="pro" width="100%" height="150px">
 		<tr><td colspan="2" bgcolor="#dfdfdf" height="25px" align="center"><font style="color: #152a33; font-weight:bold;">Ek Jodi Kapda</font></td></tr>
 		<tr><td width="50px"><a href="<?=url::base().'ekjodikapda'?>"><img src="/images/logo.jpg" alt="contribute" width="150" height="150"/></a></td>
-		<td>In India, there are 456 million Indians living below the poverty line with limited or no access to the bare necessities like food, clothing and shelter. &nbsp;&nbsp;&nbsp;<br/>
-		  <a href="<?=url::base().'ekjodikapda'?>">More&raquo;</a></td></tr>
+		<td>In India, there are 456 million Indians living below the poverty line with limited or no access to the bare necessities like food, clothing and shelter.<br/>
+		  <a href="<?=url::base().'ekjodikapda'?>">More>></a></td></tr>
 	</table>
 	</td>
 	
@@ -40,7 +37,7 @@ Here is a list of projects currently undertaken by the organization:
       <tr>
         <td width="50px"><a href="<?=url::base().'library'?>"><img src="/images/book.jpg" alt="Project1" width="150" height="150" border="0"/></a></td>
         <td>Providing students with various curriculum and non-curriculum books, <b> to gain a broader perspective....</b><br/>
-          <a href="<?=url::base().'library'?>">More&raquo;</a></td>
+          <a href="<?=url::base().'library'?>">More>></a></td>
       </tr>
     </table></td>
     <td width="50%" height="150px"><table class="pro" width="100%" height="150px">
@@ -49,8 +46,8 @@ Here is a list of projects currently undertaken by the organization:
       </tr>
       <tr>
         <td width="50px"><a href="<?=url::base().'innovation'?>"><img src="/images/innovation.jpg" alt="Project1" width="150" height="150" border="0"/></a><a href="<?=url::base().'ekjodikapda'?>"></a></td>
-        <td>Projects shortlisted for the final round for 2010-2011 announced!! <br/>
-          <a href="<?=url::base().'innovation'?>">More&raquo;</a></td>
+        <td>'Hovomarine' chosen as winner of Innovation Project 2010-2011. <br/>
+          <a href="<?=url::base().'innovation'?>">More>></a></td>
       </tr>
     </table></td>
   </tr>

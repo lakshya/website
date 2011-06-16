@@ -66,8 +66,8 @@ else
                  <td bgcolor="#efefef">8.00</td>
                  <td bgcolor="#efefef">8.92</td>
                  <td bgcolor="#efefef">8.62</td>
-                 <td bgcolor="#efefef">6.77</td>
-              <td bgcolor="#efefef">8.49</td>
+                 <td bgcolor="#efefef">9.31</td>
+              <td bgcolor="#efefef">8.73</td>
 </tr> 
               <tr>
                 <td bgcolor="#efefef"><b>Lakshya Funding Details</b></td>

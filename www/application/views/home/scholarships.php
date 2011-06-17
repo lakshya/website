@@ -10,11 +10,11 @@ else
 }
 </script>
 <div id="overview">
-<h5>Project Goal:</h5>To fund NIT Warangal students in need of financial assistance.
+<h5>Project Goal:</h5><ul>To fund NIT Warangal students in need of financial assistance.</ul>
 <h5>Loan model:</h5>
-Raising funds is a challenge which gets tougher every year. To make this project sustainable, the Lakshya team has been working on a loan based model which
-was implemented for all scholar who applied in December 2010-2011.
-<h5>Terms of loan:</h5>
+<ul>Raising funds is a challenge which gets tougher every year. To make this project sustainable, the Lakshya team has been working on a loan based model which
+was implemented for all scholar who applied in December 2010-2011.</ul>
+<h5>Terms of the Loan:</h5>
 <ul>
 <li><b>Interest free loans without collateral</b>.</li>
 <li>The repayment period will be 5 years from graduation.</li>
@@ -40,6 +40,6 @@ was implemented for all scholar who applied in December 2010-2011.
             Loading. Please Wait...
         </div>
 <h5>Fee Details:</h5>
-<a href="<?=url::base().'fees'?>">Click here</a> to see the detailed fee structure for NITW students from various batches.
+<ul><a href="<?=url::base().'fees'?>">Click here</a> to see the detailed fee structure for NITW students from various batches.</ul>
     <script type="text/javascript" src="/scripts/jquery.min.js"></script>
     <script type="text/javascript" src="/scripts/tab.js"></script> 

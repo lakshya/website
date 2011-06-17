@@ -204,4 +204,4 @@ else
         <ol><li>From Gwalior, Madhya Pradesh</li> </ol>
         </div>
 </ul>
-*The Trahi Foundation is an organization formed by the 1993 batch NITW alumni and is based in Bangalore.
+<font color="gray">*The Trahi Foundation is an organization formed by the 1993 batch NITW alumni and is based in Bangalore.</font>

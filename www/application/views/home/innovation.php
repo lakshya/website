@@ -34,17 +34,15 @@
 		}
 	});
 </script>
-<b>Project Goal:</b> To fund ideas by NITW students to convert them into working models, prototypes or technology demonstrators.<br/>
-<p>The Innovation Project is an incentive for students to pursue technology as a tool to overcome today's difficulties.
-India's jugaad philosophy urgently needs an upgrade and we're hoping it will come from a few of these bright young minds.</p>
-<br/>
-<b>Project proposal to be supported for 2011:</b>
+<h5>Project Goal:</h5><ul>To fund ideas by NITW students to convert them into working models, prototypes or technology demonstrators.
+The Innovation Project is an incentive for students to pursue technology as a tool to overcome today's difficulties.
+India's jugaad philosophy urgently needs an upgrade and we're hoping it will come from a few of these bright young minds.</ul>
+
+<h5>Project proposal to be supported for 2011:</h5>
 <ul>
-<li><span>Hovomarine by Joby Yeldo (M.Tech 1st Year - Manufacturing Engg.)</span></li>
-</ul>
-<br/>
-<b>Entries are closed for now. The competition will reopen in the second half of 2011. Dates for abstract submission will be posted here.</b>
-<h2>Competition</h2>
+<span>Hovomarine by Joby Yeldo (M.Tech 1st Year - Manufacturing Engg.)</span><br/>
+<b>Entries are closed for now. The competition will reopen in the second half of 2011. Dates for abstract submission will be posted here.</b></ul>
+<h5>Competition</h5>
 <ol>
   <li><a href="<?=url::base().'images/downloads/basic_info.pdf'?>" target="_blank">Basic Information</a></li>
   <li><a href="<?=url::base().'images/downloads/TIP_Abstract_guidelines_V3.pdf'?>" target="_blank">Abstract Submission Guidelines</a></li>
@@ -56,7 +54,7 @@ India's jugaad philosophy urgently needs an upgrade and we're hoping it will com
   <li>February 13th 2011 - Shortlist for Final Round.</li>
   <li>March 5th,6th 2011 - Presentations by shortlisted Teams.</li>
 </ol>-->
-<h2>Important points to note</h2>
+<h5>Important points to note</h5>
 <ol>
 
   <li><b>Mail all entries to info@TheLakshyaFoundation.org.</b></li>
@@ -66,8 +64,8 @@ India's jugaad philosophy urgently needs an upgrade and we're hoping it will com
   <li>For more information, shoot an email to info@TheLakshyaFoundation.org.</li>
   <li>This competition is <b>NOT</b> open for final year B.Tech students. This is because we would like the entire team to be available to work on the winning idea while in college.</li>  
 </ol>
-<h2>The Innovation Project Poster.</h2>
-<p align="center">Click on the image to enlarge it.</p>
+<h5>The Innovation Project Poster.</h5>
+<p align="centre">Click on the image to enlarge it.</p>
 <table width="660" border="0" align="center">
   <tr>
     <td width="110" height="200" align="center"><a href="/images/innovation/TIP_POSTERS_V5-1.jpg" class="highslide" onClick="return hs.expand(this)"><img src="/images/innovation/TIP_POSTERS_V5-1.jpg" alt="Highslide JS" width="100"

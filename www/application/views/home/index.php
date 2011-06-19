@@ -53,20 +53,19 @@ word-spacing: 10px;
   </tr>
 </table>
 </center>
-<br/>
 
 <table align="center" cellspacing=50 style="padding:0px;border-spacing:50px">
 	<tr>
-		<td> <a href="<?=url::base().'images/accounts/Lakshya-BankStatement.xls'?>">
-		<img src="<?=url::base().'images/downloads/bankStatement.jpg'?>" title="Click to view" border="2" width="100" height="100"/><br/>Bank Statement</a> 
-		</td>  
+		<td> <a href="<?=url::base().'images/accounts/financials-2008-09.xls'?>">
+		<img src="<?=url::base().'images/downloads/Audit.jpg'?>" title="Click to view" border="2" width="70" height="90"/><br/>Financials 2008-2009</a>
+		</td>
 		
-		<td> <a href="<?=url::base().'images/accounts/Audit-2008-2009.xls'?>">
-		<img src="<?=url::base().'images/downloads/Audit.jpg'?>" title="Click to view" border="2" width="100" height="100"/><br/>Audit 2008-2009</a>
+		<td> <a href="<?=url::base().'images/accounts/financials-2009-10.xls'?>">
+		<img src="<?=url::base().'images/downloads/Audit.jpg'?>" title="Click to view" border="2" width="70" height="90"/><br/>Financials 2009-2010</a>
 		</td>
 
-		<td> <a href="<?=url::base().'accounts/allDonations/'?>">
-		<img src="<?=url::base().'images/downloads/donation.jpg'?>" title="Click to view" border="2" width="100" height="100"/><br/>All donations received</a>
+		<td> <a href="<?=url::base().'images/accounts/financials-2010-11.xls'?>">
+		<img src="<?=url::base().'images/downloads/Audit.jpg'?>" title="Click to view" border="2" width="70" height="90"/><br/>Financials 2010-2011</a>
 		</td>
 
 	</tr> 

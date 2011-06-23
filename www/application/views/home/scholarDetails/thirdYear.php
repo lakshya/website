@@ -232,7 +232,7 @@ else
         <b>Updates :</b><br/>
         <ol><li>-</li><li>-</li></ol>
         </div>
-	<li><a onclick="expand('Gayatri')"><font style="cursor:pointer">Gayatri
+	<li><a onclick="expand('Gayatri_test')"><font style="cursor:pointer">Gayatri
 </font></a></li>
         <div id="Gayatri" style="display:none">
         <br/>

@@ -29,7 +29,7 @@ was implemented for all scholar who applied in December 2010-2011.</ul>
 <h5>The Lakshya Scholars:</h5>
         <ul class="mytabs" id="tabs">
             <li class="current"><a href="<?=url::base().'graduated/?output=ajax'?>">Graduated</a></li>
-            <li><a href="<?=url::base().'finalYear/?output=ajax'?>">Class of 2011</a></li>
+            <!--<li><a href="<?=url::base().'finalYear/?output=ajax'?>">Class of 2011</a></li> -->
             <li><a href="<?=url::base().'thirdYear/?output=ajax'?>">Class of 2012</a></li>
             <li><a href="<?=url::base().'secondYear/?output=ajax'?>">Class of 2013</a></li>
             <li><a href="<?=url::base().'firstYear/?output=ajax'?>">Class of 2014</a></li>    

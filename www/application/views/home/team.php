@@ -93,7 +93,7 @@ text-align: left;
 	<tr>
 		<td bgcolor="#dddddd">Srihari Maneru</td>
 		<td bgcolor="#dddddd">sriharimaneru@gmail.com</td>
-		<td bgcolor="#dddddd">9940397432</td>
+		<td bgcolor="#dddddd">9972359354</td>
 		<td bgcolor="#dddddd">2008</td>
 	</tr>
 	<tr>
@@ -134,8 +134,8 @@ text-align: left;
 	</tr>
 	<tr>
 		<td bgcolor="#eeeeee">Nagendra Babu</td>
-		<td bgcolor="#eeeeee">nagendra.nitw@gmail.com</td>
-		<td bgcolor="#eeeeee">9886395489</td>
+		<td bgcolor="#eeeeee">nagendrababu.pati@gmail.com</td>
+		<td bgcolor="#eeeeee">8886440099</td>
 		<td bgcolor="#eeeeee">2010</td>
 	</tr>
 	<tr>

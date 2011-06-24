@@ -80,6 +80,92 @@ else
               </tr>
         </table>
         <br/>
+		<table width="100%" border="0" class="coTab" cellspacing="1">
+				<tr>
+					<td colspan="10" bgcolor="#D7D6E9"><b>Repayment Details</b>(Over a 60 months time period)</td>
+				</tr>
+				<tr>
+				    <td colspan="2" bgcolor="#D7D6E9"><span><b>Total Repayment Amount:</b></span></td>
+				    <td bgcolor="#D7D6E9">45000</td>
+					<td colspan="2" bgcolor="#D7D6E9"><span><b>Total Amount Repaid:</b></span></td>
+					<td bgcolor="#D7D6E9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td colspan="2" bgcolor="#D7D6E9"><b>Status:</b></td>
+					<td bgcolor="#D7D6E9">Studying</td>
+				</tr>
+		</table>
+		<table width="100%" border="0" class="coTab" cellspacing="1">
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+		</table>
+		<br/>
         <b>Updates :</b><br/>
         <ol><li>-</li></ol>
         </div>
@@ -144,6 +230,92 @@ else
               
         </table>
         <br/>
+		<table width="100%" border="0" class="coTab" cellspacing="1">
+				<tr>
+					<td colspan="10" bgcolor="#D7D6E9"><b>Repayment Details</b>(Over a 60 months time period)</td>
+				</tr>
+				<tr>
+				    <td colspan="2" bgcolor="#D7D6E9"><span><b>Total Repayment Amount:</b></span></td>
+				    <td bgcolor="#D7D6E9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td colspan="2" bgcolor="#D7D6E9"><span><b>Total Amount Repaid:</b></span></td>
+					<td bgcolor="#D7D6E9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td colspan="2" bgcolor="#D7D6E9"><b>Status:</b></td>
+					<td bgcolor="#D7D6E9">Studying</td>
+				</tr>
+		</table>
+		<table width="100%" border="0" class="coTab" cellspacing="1">
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+		</table>
+		<br/>
         <b>Details</b><br/>
         <ol><li>From Guntur, Andhra Pradesh</li></li></ol>
         </div>	
@@ -208,6 +380,92 @@ else
               
         </table>
         <br/>
+		<table width="100%" border="0" class="coTab" cellspacing="1">
+				<tr>
+					<td colspan="10" bgcolor="#D7D6E9"><b>Repayment Details</b>(Over a 60 months time period)</td>
+				</tr>
+				<tr>
+				    <td colspan="2" bgcolor="#D7D6E9"><span><b>Total Repayment Amount:</b></span></td>
+				    <td bgcolor="#D7D6E9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td colspan="2" bgcolor="#D7D6E9"><span><b>Total Amount Repaid:</b></span></td>
+					<td bgcolor="#D7D6E9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td colspan="2" bgcolor="#D7D6E9"><b>Status:</b></td>
+					<td bgcolor="#D7D6E9">Studying</td>
+				</tr>
+		</table>
+		<table width="100%" border="0" class="coTab" cellspacing="1">
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+		</table>
+		<br/>
         <b>Details:</b><br/>
         <ol><li>From East Godavari, Andhra Pradesh</li></ol>
         </div>

@@ -84,6 +84,20 @@ else
               </tr>
         </table>
         <br/>
+		<table width="100%" border="0" class="coTab" cellspacing="1">
+				<tr>
+					<td colspan="10" bgcolor="#D7D6E9"><b>Repayment Details</b></td>
+				</tr>
+				<tr>
+				    <td colspan="2" bgcolor="#D7D6E9"><span><b>Total Repayment Amount:</b></span></td>
+					<td bgcolor="#D7D6E9">N/A</td>
+					<td colspan="2" bgcolor="#D7D6E9"><span><b>Total Amount Repaid:</b></span></td>
+					<td bgcolor="#D7D6E9"></td>
+					<td colspan="2" bgcolor="#D7D6E9"><b><span>Status:</span></b></td>
+					<td bgcolor="#D7D6E9">Loan Model N/A</td>
+				</tr>
+		</table>
+		<br/>
         <b>Updates :</b><br/>
         <ol><li>Working in Coromandel International Limited as Engineer Trainee</li><li>-</li></ol>
         </div>
@@ -161,6 +175,20 @@ else
               </tr>
         </table>
         <br/>
+		<table width="100%" border="0" class="coTab" cellspacing="1">
+				<tr>
+					<td colspan="10" bgcolor="#D7D6E9"><b>Repayment Details</b></td>
+				</tr>
+				<tr>
+				   <td colspan="2" bgcolor="#D7D6E9"><span><b>Total Repayment Amount:</b></span></td>
+					<td bgcolor="#D7D6E9">N/A</td>
+					<td colspan="2" bgcolor="#D7D6E9"><span><b>Total Amount Repaid:</b></span></td>
+					<td bgcolor="#D7D6E9">2000</td>
+					<td colspan="2" bgcolor="#D7D6E9"><b><span>Status:</span></b></td>
+					<td bgcolor="#D7D6E9">Loan Model N/A</td>
+				</tr>
+		</table>
+		<br/>
         <b>Updates :</b><br/>
         <ol><li>Working in NTPC as Graduate Engineer Trainee</li><li>-</li></ol>
         </div>
@@ -242,6 +270,92 @@ else
               </tr>
         </table>
         <br/>
+		<table width="100%" border="0" class="coTab" cellspacing="1">
+				<tr>
+					<td colspan="10" bgcolor="#D7D6E9"><b>Repayment Details</b>(Over a 60 months time period)</td>
+				</tr>
+				<tr>
+				    <td colspan="2" bgcolor="#D7D6E9"><span><b>Total Repayment Amount:</b></span></td>
+				    <td bgcolor="#D7D6E9">25950</td>
+					<td colspan="2" bgcolor="#D7D6E9"><span><b>Total Amount Repaid:</b></span></td>
+					<td bgcolor="#D7D6E9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td colspan="2" bgcolor="#D7D6E9"><b>Status:</b></td>
+					<td bgcolor="#D7D6E9">Repaying</td>
+				</tr>
+		</table>
+		<table width="100%" border="0" class="coTab" cellspacing="1">
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+		</table>
+		<br/>
         <b>Updates :</b><br/>
         <ol><li>Placed in NTPC</li><li>Received admit to IIM Ahmedabad, Class of 2013</li></ol>
         </div>
@@ -318,6 +432,92 @@ else
               </tr>
         </table>
         <br/>
+		<table width="100%" border="0" class="coTab" cellspacing="1">
+				<tr>
+					<td colspan="10" bgcolor="#D7D6E9"><b>Repayment Details</b>(Over a 60 months time period)</td>
+				</tr>
+				<tr>
+				    <td colspan="2" bgcolor="#D7D6E9"><span><b>Total Repayment Amount:</b></span></td>
+				    <td bgcolor="#D7D6E9">27950</td>
+					<td colspan="2" bgcolor="#D7D6E9"><span><b>Total Amount Repaid:</b></span></td>
+					<td bgcolor="#D7D6E9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td colspan="2" bgcolor="#D7D6E9"><b>Status:</b></td>
+					<td bgcolor="#D7D6E9">Repaying</td>
+				</tr>
+		</table>
+		<table width="100%" border="0" class="coTab" cellspacing="1">
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+				<tr> 
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+					<td bgcolor="#efefef">&nbsp;</td>
+				</tr>
+		</table>
+		<br/>
         <b>Updates :</b><br/>
         <ol><li>Placed in BPCL</li></ol>
         </div>

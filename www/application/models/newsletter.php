@@ -1,31 +1,66 @@
 <?php
-Class Newsletter_Model extends Model{
-
-	function add($email, $key)
+Class Newsletter_Model extends ORM {
+	
+	protected $table_name = 'newsletter';
+	
+	protected $primary_key = 'newsletter_id';
+	
+	protected $primary_val = 'email';
+	
+	
+	public function validate(array& $data, $save = FALSE)
 	{
-		$this->db->insert('newsletter',array('email' => $email,
-												'confirmKey' => $key,
-												'mailTime' => date('Y-m-d H:i:s'),
-												'status' => 'pending'));
-												
+		$data = Validation::factory($data)
+			->add_rules('email', 'required', 'email','length[3,140]')
+			->add_rules('status','required','digit')
+			->add_callbacks('email', array($this,'_unique_field'));
+		return parent::validate($data, $save);
 	}
 	
-	function confirm($email, $key)
+	public function save()
 	{
-		$result = $this->db->select('*')->from('newsletter')->where('email',$email)->get()->result(FALSE);
-		$result = $result[0];
-		if(!$result) return FALSE;
-		if($result['confirmKey'] != $key) return FALSE;
-		if((mktime() - strtotime($result['mailTime'])) > 14*24*60*60) return FALSE; // after 2 weeks the link must expire
-		
-		$this->db->update('newsletter', array('status' => 'active'),array('email' => $result['email']));
-		return TRUE;
+		// Add added_at field, if its a new row. Override, even if its set.
+		if($this->loaded === FALSE)
+		{
+			$this->subscribe_key = $this->get_unique_key('subscribe_key');
+			$this->unsubscribe_key = $this->get_unique_key('unsubscribe_key');
+			$this->added_at = date('Y-m-d H:i:s');
+		}
+		return parent::save();
 	}
 	
-	function getEmail($email)
+	public function unique_key($id = NULL)
 	{
-		$result = $this->db->select('email')->from('newsletter')->where('email', $email)->get();
-		return count($result);
+		if ( !empty($id) AND is_string($id) AND !ctype_digit($id) )
+		{
+			return $this->primary_val;
+		}
+		return parent::unique_key($id);
+	}
+	
+	public function confirm()
+	{
+		$this->status = 2;
+		$this->confirmed_at = date('Y-m-d H:i:s');
+		return $this->save();
+	}
+	
+	private function get_unique_key($field)
+	{
+		$bSuccess = FALSE;
+		$text = '';
+		while($bSuccess != TRUE)
+		{
+			$text = text::random('alnum', 12);
+			$result = ORM::factory($this->object_name)
+				->where($field, $text)
+				->count_all();
+			if($result == 0)
+			{
+				$bSuccess = TRUE;
+			}
+		}
+		return $text;
 	}
 }
 ?>

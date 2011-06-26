@@ -27,6 +27,22 @@ class Validation extends Validation_Core {
 		if($p < 0 || $p > 100.00) return FALSE;
 		return TRUE;
 	}
+	
+	/**
+	*
+	* Date Time Rule to validate MySQL datetime formatting (yyyy-mm-dd H:i:s)
+	* @param string $value
+	* @return bool
+	*/
+	function datetime($value)
+	{
+		if (preg_match("/^(\d{4})-(\d{2})-(\d{2}) ([01][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9])$/", $value, $matches)) {
+			if (checkdate($matches[2], $matches[3], $matches[1])) {
+				return true;
+			}
+		}
+		return false;
+	}
 
 } // End Validation
 ?>

@@ -222,8 +222,8 @@ else
                  <td bgcolor="#efefef">6.42</td>
                  <td bgcolor="#efefef">5.84</td>
                  <td bgcolor="#efefef">5.62</td>
-                 <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">4.56</td>
+                 <td bgcolor="#efefef">0.83</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
               </tr> 
@@ -1025,11 +1025,11 @@ else
               <tr>
                  <td bgcolor="#efefef"><b>SGPA</b></td>
                  <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
-                 <td bgcolor="#efefef">-</td>
+                 <td bgcolor="#efefef">6.23</td>
+                 <td bgcolor="#efefef">6.62</td>
+                 <td bgcolor="#efefef">6.69</td>
+                 <td bgcolor="#efefef">7.00</td>
+                 <td bgcolor="#efefef">6.80</td>
                  <td bgcolor="#efefef">-</td>
                  <td bgcolor="#efefef">-</td>
               <td bgcolor="#efefef">6.77</td>

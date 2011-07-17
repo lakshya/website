@@ -62,7 +62,7 @@ width: 150px;
 		<td> : </td>
 		<td>
 		<?php 
-		$branches = array('ECE', 'EEE', 'Chemical', 'Mechanical', 'CSE', 'Civil', 'Metallurgy', 'Biotech');
+		$branches = array('ECE' => 'ECE', 'EEE' => 'EEE', 'Chemical' => 'Chemical', 'Mechanical' => 'Mechanical', 'CSE' => 'CSE', 'Civil' => 'Civil', 'Metallurgy' => 'Metallurgy', 'Biotech' => 'Biotech');
 		echo form::dropdown('branch', $branches, $data->branch);
 		?>
 		</td>

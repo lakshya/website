@@ -19,10 +19,10 @@ word-spacing: 10px;
 	
 	<td width="50%" height="150px">
 	<table class="pro" width="100%" height="150px">
-		<tr><td colspan="2" bgcolor="#dfdfdf" height="25px" align="center"><font style="color: #152a33; font-weight:bold;">Ek Jodi Kapda</font></td></tr>
-		<tr><td width="50px"><a href="<?=url::base().'ekjodikapda'?>"><img src="/images/logo.jpg" alt="contribute" width="150" height="150"/></a></td>
-		<td>In India, there are 456 million Indians living below the poverty line with limited or no access to the bare necessities like food, clothing and shelter.<br/>
-		  <a href="<?=url::base().'ekjodikapda'?>">More>></a></td></tr>
+		<tr><td colspan="2" bgcolor="#dfdfdf" height="25px" align="center"><font style="color: #152a33; font-weight:bold;">Asthra</font></td></tr>
+		<tr><td width="50px"><a href="http://www.theasthra.org"><img src="/images/asthra.jpg" alt="Asthra" width="150" height="150"/></a></td>
+		<td>Asthra is the name given to the project which aims to create a society free of corruption through the Right to Information act.<br/>
+		  <a href="http://www.theasthra.org">More>></a></td></tr>
 	</table>
 	</td>
 	

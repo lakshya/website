@@ -34,36 +34,42 @@
 		}
 	});
 </script>
+<h5> Entries for abstracts for 2011-2012 are now open. Mail all entries to info@TheLakshyaFoundation.org with subject as &quot;The Innovation Project 2011-2012&quot;</h5>
+<h5>Important Dates for the 2011-2012 competition</h5>
+<ol>
+  <li>August 1st 2011– Invitation for abstracts begins</li>
+  <li>September 2nd 2011– Invitation for abstracts closes</li>
+  <li>September 5th 2011– 1st round Result</li>
+  <li>October 1st 2011– Short-listed contestants present their ideas.</li>
+  <li>October 3rd 2011– Announcement of list of Innovation projects sponsored for 2011-2012</li>
+</ol>
+
 <h5>Project Goal:</h5><ul>To fund ideas by NITW students to convert them into working models, prototypes or technology demonstrators.
 The Innovation Project is an incentive for students to pursue technology as a tool to overcome today's difficulties.
 India's jugaad philosophy urgently needs an upgrade and we're hoping it will come from a few of these bright young minds.</ul>
 
-<h5>Project proposal to be supported for 2011:</h5>
-<ul>
-<span>Hovomarine by Joby Yeldo (M.Tech 1st Year - Manufacturing Engg.)</span><br/>
-<b>Entries are closed for now. The competition will reopen in the second half of 2011. Dates for abstract submission will be posted here.</b></ul>
-<h5>Competition</h5>
+<h5>Resources</h5>
+<!--<ol>Please visit this section on Tuesday 2nd August for detailed guidelines for the abstract and presentation rounds.</ol>-->
 <ol>
-  <li><a href="<?=url::base().'images/downloads/basic_info.pdf'?>" target="_blank">Basic Information</a></li>
-  <li><a href="<?=url::base().'images/downloads/TIP_Abstract_guidelines_V3.pdf'?>" target="_blank">Abstract Submission Guidelines</a></li>
-  <li><a href="<?=url::base().'images/downloads/TIP_FinalRd_guidelines_V3.pdf'?>" target="_blank">Final Round Guidelines.</a>   </li>
+  <li><a href="<?=url::base().'images/downloads/Basic_Information.pdf'?>" target="_blank">Basic Information</a></li>
+  <li><a href="<?=url::base().'images/downloads/Abstract_Guidelines.pdf'?>" target="_blank">Abstract Submission Guidelines</a></li>
+  <li><a href="<?=url::base().'images/downloads/Final_Round_Guidelines.pdf'?>" target="_blank">Final Round Guidelines</a>   </li>
 </ol>
-<!--<h2>Important Dates for the 2011 competition</h2>
-<ol>
-  <li>January 22nd 2011  - Entries Close</li>
-  <li>February 13th 2011 - Shortlist for Final Round.</li>
-  <li>March 5th,6th 2011 - Presentations by shortlisted Teams.</li>
-</ol>-->
-<h5>Important points to note</h5>
+<h5>Important points for 2011-2012 applicants</h5>
 <ol>
 
   <li><b>Mail all entries to info@TheLakshyaFoundation.org.</b></li>
-  <li>Subject line should be &quot;The Innovation Project&quot;</li>
+  <li>Subject line should be &quot;The Innovation Project 2011-2012&quot;</li>
   <li>Entries on improving existing technologies will also be accepted.</li>
   <li>More than one project may be funded.</li>
-  <li>For more information, shoot an email to info@TheLakshyaFoundation.org.</li>
-  <li>This competition is <b>NOT</b> open for final year B.Tech students. This is because we would like the entire team to be available to work on the winning idea while in college.</li>  
+  <li>For more information, send an email to info@TheLakshyaFoundation.org.</li>
+  <li>The competition is open to all branches and batches.</li>
 </ol>
+<h5>Project proposal being supported for 2010-2011</h5>
+<ul>
+<span>Hovomarine by Joby Yeldo (M.Tech 1st Year - Manufacturing Engg.)</span><br/>
+</ul>
+
 <h5>The Innovation Project Poster.</h5>
 <p align="centre">Click on the image to enlarge it.</p>
 <table width="660" border="0" align="center">
@@ -89,3 +95,4 @@ India's jugaad philosophy urgently needs an upgrade and we're hoping it will com
 <!--
 	3) Put the thumbnails inside a div for styling
 -->
+

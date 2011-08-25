@@ -462,7 +462,7 @@ else
         <ol><li>From Gwalior, Madhya Pradesh</li> </ol>
         </div>
 
-<li><a onclick="expand('Kapil Rajak')"><font style="cursor:pointer">Kapil Rajak</font></a><font color="gray"> (Funded by NITW Americas Chapter)</font></li>
+<li><a onclick="expand('Kapil Rajak')"><font style="cursor:pointer">Kapil Rajak</font></a><font color="gray"> (Funded by Prabhakar Puvvada, 1980 batch)</font></li>
         <div id="Kapil Rajak" style="display:none">
         <br/>
         <table width="100%" border="0" class="coTab" cellspacing="1">

@@ -34,7 +34,6 @@
 		}
 	});
 </script>
-<h5> Entries for abstracts for 2011-2012 are now open. Mail all entries to info@TheLakshyaFoundation.org with subject as &quot;The Innovation Project 2011-2012&quot;</h5>
 <h5>Important Dates for the 2011-2012 competition</h5>
 <ol>
   <li>August 1st 2011– Invitation for abstracts begins</li>

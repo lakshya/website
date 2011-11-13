@@ -112,7 +112,7 @@ if($_REQUEST['action']=="submit")
                                 <td colspan="3" align="left">&nbsp;</td>
                               </tr>
                               <tr>
-                                <td colspan="3" align="left"><?php $sql="select * from lakshya_student_ps_details where uid='{$uid_user}'";
+                                <td colspan="3" align="left"><?php $sql="select * from lakshya_student_ps_details where username='{$uid_user}'";
 								  $result=mysql_query($sql);
 								  $row=mysql_fetch_array($result);
 							?></td>
@@ -162,7 +162,7 @@ if($_REQUEST['action']=="submit")
 							<table width="658" border="0" align="center" cellpadding="0" cellspacing="0">
                               <tr>
                                 <td colspan="3" align="center" valign="top"><span style="overflow:auto; height:500px">
-                                  <?php $sql="select * from lakshya_student_ct_details where uid='{$uid_user}'";
+                                  <?php $sql="select * from lakshya_student_ct_details where username='{$uid_user}'";
 								  $result=mysql_query($sql);
 								  $row=mysql_fetch_array($result);
 							?>
@@ -233,7 +233,7 @@ if($_REQUEST['action']=="submit")
 							<table width="658" border="0" align="center" cellpadding="0" cellspacing="0">
                               <tr>
                                 <td colspan="3" align="center"><span style="overflow:auto; height:500px">
-                                  <?php $sql="select * from lakshya_student_ed_details where uid='{$uid_user}'";
+                                  <?php $sql="select * from lakshya_student_ed_details where username='{$uid_user}'";
 								  $result=mysql_query($sql);
 								  $row=mysql_fetch_array($result);
 							?>
@@ -441,7 +441,7 @@ if($_REQUEST['action']=="submit")
 							<table width="658" border="0" align="center" cellpadding="0" cellspacing="0">
                               <tr>
                                 <td width="658" align="center" valign="top"><span style="overflow:auto; height:500px">
-                                  <?php $sql="select * from lakshya_student_fs_details where uid='{$uid_user}'";
+                                  <?php $sql="select * from lakshya_student_fs_details where username='{$uid_user}'";
 									$result=mysql_query($sql);
 									$row=mysql_fetch_array($result);
 									$exdet=$row['exdet'];
@@ -501,7 +501,7 @@ if($_REQUEST['action']=="submit")
                               </tr>
                               <tr>
                                 <td width="658" align="center" valign="top"><span style="overflow:auto; height:500px">
-                                  <?php $sql="select * from lakshya_student_fs_details where uid='{$uid_user}'";
+                                  <?php $sql="select * from lakshya_student_fs_details where username='{$uid_user}'";
 									$result=mysql_query($sql);
 									$row=mysql_fetch_array($result);
 									$fmdet=$row['fmdet'];
@@ -569,7 +569,7 @@ if($_REQUEST['action']=="submit")
                               </tr>
                               <tr>
                                 <td width="658" align="center" valign="top"><span style="overflow:auto; height:500px">
-                                  <?php $sql="select * from lakshya_student_fs_details where uid='{$uid_user}'";
+                                  <?php $sql="select * from lakshya_student_fs_details where username='{$uid_user}'";
 									$result=mysql_query($sql);
 									$row=mysql_fetch_array($result);
 									$scdet=$row['scdet'];
@@ -630,7 +630,7 @@ if($_REQUEST['action']=="submit")
 							<table width="658" border="0" align="center" cellpadding="0" cellspacing="0">
                               <tr>
                                 <td colspan="3" align="center" valign="top"><span style="overflow:auto; height:500px">
-                                  <?php $sql="select * from lakshya_student_at_details where uid='{$uid_user}'";
+                                  <?php $sql="select * from lakshya_student_at_details where username='{$uid_user}'";
 								  $result=mysql_query($sql);
 								  $row=mysql_fetch_array($result);
 							?>
@@ -731,7 +731,7 @@ if($_REQUEST['action']=="submit")
 							<table width="658" border="0" align="center" cellpadding="0" cellspacing="0">
                               <tr>
                                 <td colspan="3" align="center" valign="top"><span style="overflow:auto; height:500px">
-                                  <?php $sql="select * from lakshya_student_ot_details where uid='{$uid_user}'";
+                                  <?php $sql="select * from lakshya_student_ot_details where username='{$uid_user}'";
 								  $result=mysql_query($sql);
 								  $row=mysql_fetch_array($result);
 							?>
@@ -765,7 +765,7 @@ if($_REQUEST['action']=="submit")
                             <table width="658" border="0" align="center" cellpadding="0" cellspacing="0">
                               <tr>
                                 <td width="658" align="center" valign="top"><span class="big_text2" style="overflow:auto; height:500px">
-                                  <?php $sql="select * from lakshya_student_sl_details where uid='{$uid_user}'";
+                                  <?php $sql="select * from lakshya_student_sl_details where username='{$uid_user}'";
 								  $result=mysql_query($sql);
 								  if(mysql_affected_rows()==0)
 								  {
@@ -784,7 +784,7 @@ if($_REQUEST['action']=="submit")
 							<table width="658" border="0" align="center" cellpadding="0" cellspacing="0">
                               <tr>
                                 <td colspan="3" align="center" valign="top"><span style="overflow:auto; height:500px">
-                                  <?php $sql="select * from lakshya_student_sl_details where uid='{$uid_user}'";
+                                  <?php $sql="select * from lakshya_student_sl_details where username='{$uid_user}'";
 								  $result=mysql_query($sql);
 								  $row=mysql_fetch_array($result);
 							?>

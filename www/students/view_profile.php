@@ -13,7 +13,7 @@
 
 $enc_uid=$_REQUEST['enc'];
 
-$sql="select uid from lakshya_student_logins";
+$sql="select username from lakshya_student_logins";
 $result=mysql_query($sql);
 $found=0;
 while($row=mysql_fetch_row($result))

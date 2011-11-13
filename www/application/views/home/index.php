@@ -5,6 +5,7 @@ word-spacing: 10px;
 }
 </style>
 <center>
+<h4 align='center'><a href='http://www.thelakshyafoundation.org/students/'>Click here to apply for lakshya scholarship</a></h4>
 <table width="100%" height="150px" cellspacing="10" border="0">
 <tr>
 

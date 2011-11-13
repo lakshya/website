@@ -107,8 +107,6 @@ if(!empty($scripts) && is_array($scripts))
                            
                         <?include("includes/news.php");?>
 						
-						<?include("includes/login.php");?>
-                        
                        <?include("includes/newsletter.php");?>
                         
                         <?include("includes/quicklinks.php");?>

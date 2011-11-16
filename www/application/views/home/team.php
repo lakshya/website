@@ -165,18 +165,6 @@ text-align: left;
 		<td bgcolor="#D7D6E9"><b>Batch</b></td>
 	</tr>
 	<tr>
-		<td bgcolor="#dddddd">Channa Mallikarjuna</td>
-		<td bgcolor="#dddddd">hcmg2489@gmail.com </td>
-		<td bgcolor="#dddddd">9014160983</td>
-		<td bgcolor="#dddddd">2011</td>
-	</tr>
-	<tr>
-		<td bgcolor="#eeeeee">Ramesh Katreddi</td>
-		<td bgcolor="#eeeeee">ramesh.katreddi@gmail.com</td>
-		<td bgcolor="#eeeeee">9700474165</td>
-		<td bgcolor="#eeeeee">2011</td>
-	</tr>
-		<tr>
 		<td bgcolor="#dddddd">Ashok Reddy</td>
 		<td bgcolor="#dddddd">ashoknitwg@gmail.com</td>
 		<td bgcolor="#dddddd">9490188897</td>
@@ -189,7 +177,7 @@ text-align: left;
 		<td bgcolor="#eeeeee">2012</td>
 	</tr>
 	<tr>
-		<td bgcolor="#dddddd">Vamsi Krishna</td>
+		<td bgcolor="#dddddd">Vamsee Krishna</td>
 		<td bgcolor="#dddddd">vamsi.dvk4u@gmail.com</td>
 		<td bgcolor="#dddddd">9491314970</td>
 		<td bgcolor="#dddddd">2012</td>
@@ -200,21 +188,21 @@ text-align: left;
 		<td bgcolor="#eeeeee">2012</td>
 	</tr>
 	<tr>
-		<td bgcolor="#dddddd">K.Venkata Karthik</td>
-		<td bgcolor="#dddddd">rockingu.kv@gmail.com</td>
-		<td bgcolor="#dddddd">9885812693</td>
-		<td bgcolor="#dddddd">2012</td>
+		<td bgcolor="#dddddd">G.Sireesh Kumar</td>
+		<td bgcolor="#dddddd">g.shireesh.kumar@gmail.com</td>
+		<td bgcolor="#dddddd">7799479900</td>
+		<td bgcolor="#dddddd">2014</td>
 	</tr>
 	<tr>
-		<td bgcolor="#eeeeee">Pandari Jain Kumar</td>
-		<td bgcolor="#eeeeee">pandari.216@gmail.com</td>
-		<td bgcolor="#eeeeee">9848022216</td>
+		<td bgcolor="#eeeeee">Gayathri Kaliyamoorthy</td>
+		<td bgcolor="#eeeeee">gkgayathri1@gmail.com</td>
+		<td bgcolor="#eeeeee">9959449248</td>
 		<td bgcolor="#eeeeee">2012</td>
 	</tr>
 	<tr>
-		<td bgcolor="#dddddd">Akhilesh Padma</td>
-		<td bgcolor="#dddddd">akhilesh009@gmail.com</td>
-		<td bgcolor="#dddddd">9866791061</td>
+		<td bgcolor="#dddddd">Sai Jnaneswar</td>
+		<td bgcolor="#dddddd">gcjnaneswar@gmail.com</td>
+		<td bgcolor="#dddddd">8688836824 </td>
 		<td bgcolor="#dddddd">2013</td>
 	</tr>
 </table>

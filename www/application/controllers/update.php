@@ -64,18 +64,18 @@ class Update_Controller extends Template_Controller {
 		system('tar -xzf lakshya.tar.gz -C beta_new');
 		
 		// copy database & logs from old ones
-		system('cp public_html/beta/application/config/database.php beta_new/lakshya-website-*/www/application/config/database.php');
-		system('cp public_html/beta/application/logs/* beta_new/lakshya-website-*/www/application/logs/');
+		system('cp www/beta/application/config/database.php beta_new/lakshya-website-*/www/application/config/database.php');
+		system('cp www/beta/application/logs/* beta_new/lakshya-website-*/www/application/logs/');
 		
 		// Delete the old beta backup & create a new one
 		system('rm -rf beta_backup');
-		system('mv public_html/beta/ beta_backup/');
+		system('mv www/beta/ beta_backup/');
 		
 		// Move 'beta_new' to 'beta'
-		system('mv beta_new/lakshya-website-*/www/ public_html/beta/');
+		system('mv beta_new/lakshya-website-*/www/ www/beta/');
 		
 		// Call upgrade on the beta site
-		system('wget http://beta.thelakshyafoundation.org/upgrade/');
+		system('wget http://stage.thelakshyafoundation.org/upgrade/');
 		
 		// Remove the temp. files
 		system('rm lakshya.tar.gz');

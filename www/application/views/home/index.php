@@ -4,8 +4,39 @@ border: 1px solid #66cccc;
 word-spacing: 10px;
 }
 </style>
+ <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+	var amountCollected = 54000;
+	var target = 300000;
+	var percent = amountCollected*100/target + '%';
+        data.addColumn('string', '');
+        data.addColumn('number', '');
+        data.addRows([[percent, amountCollected]]);
+
+        var options = {
+          width: 800, height: 100,
+          title: '',
+          vAxis: {titleTextStyle: {color: 'red'}},
+          hAxis: {maxValue: target, minValue: 0, gridlines: {count: 8}},
+          legend: {position: 'none'}
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+
 <center>
-<h4 align='center'><a href='http://www.thelakshyafoundation.org/students/'>Click here to apply for lakshya scholarship</a></h4>
+	<!-- Admin fund raising meter-->
+       <a href="<?=url::base().'adminCorpus'?>">Administrative Funds collected so far</a>
+	<div id="chart_div"></div> 
+         <!--...end here -->
+
+<!--h4 align='center'><a href='http://www.thelakshyafoundation.org/students/'>Click here to apply for lakshya scholarship</a></h4-->
 <table width="100%" height="150px" cellspacing="10" border="0">
 <tr>
 

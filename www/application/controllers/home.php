@@ -203,6 +203,11 @@ class Home_Controller extends Template_Controller {
 		$this->template->heading = 'Waitlisted Lakshya awaiting';
 		$this->template->content = new View('home/scholarDetails/waitlisted');
 	}
-
+	function adminCorpus()
+	{
+		$this->template->title = 'Corpus for Administrative Expenses';
+		$this->template->heading = 'Corpus for Administrative Expenses';
+		$this->template->content = new View('home/adminCorpus');
+	}
 }
 ?>

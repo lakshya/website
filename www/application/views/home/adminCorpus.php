@@ -1,8 +1,4 @@
-Lakshya has spent <b>less than 5%</b> of all donations on administrative costs. A corpus for the same will enable us to:
-<ul>
-  <li> operate without worrying about expenses incurred in day to day activities </li>
-  <li> Utilize 100% of all donations for our projects </li>
-</ul>
+Lakshya has spent <b>less than 5%</b> of all donations on administrative costs. A corpus for the same will enable us to operate without worrying about expenses incurred in day to day activities.
 
 Annual administrative expenses estimate (INR):<br/><br/>
 <table border="1" cellspacing="1">
